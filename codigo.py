@@ -129,14 +129,16 @@ if opcion == 'Información':
         <h3 style="color: white;">De lo mas jugado...</h3>
     </div>
     """,
-    unsafe_allow_html=True)
+    unsafe_allow_html=True
+    )
     st.markdown("""
     <div style="margin-left: -75px;">
     <div style="margin-right: -75px;">
     <div style="text-align: justify; text-justify: inter-word;">
         <p style='color: white;'>League of legends es un videojuego muy popular entre la cultura del videojuego, representado en la siguiente grafica sobre como ha sido uno de los mas jugados atraves del tiempo.</p>
     </div>
-    """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True
+    )
     
 
 elif opcion == 'Campeones':
