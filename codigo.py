@@ -41,7 +41,7 @@ st.image('imagenes/letras.png', use_column_width=True)
 opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campeones', 'Competitivo', 'Acerca de'])
 
 if opcion == 'Información':
-    titulos = np.array(dfinf["title"])
+    titulos = np.array(dfinf["Title"])
     #TITULO
     st.markdown(
     """
