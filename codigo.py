@@ -25,6 +25,9 @@ page_bg_img = f"""
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
+st.sidebar.image('imagenes/logo.png', caption='Imagen en la barra lateral', use_column_width=True)
+st.image('imagenes/letras.png', caption='Una bonita imagen', use_column_width=True)
+
 opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campeones', 'Competitivo', 'Acerca de'])
 
 if opcion == 'Información':
@@ -32,12 +35,15 @@ if opcion == 'Información':
     st.markdown("""
     <p style='color: white;'>League of Legends es un videojuego multijugador de arena de batalla en línea desarrollado y publicado por Riot Games. Inspirándose en Defense of the Ancients, un mapa personalizado para Warcraft III, los fundadores de Riot buscaron desarrollar un juego independiente del mismo género. Desde su lanzamiento en octubre de 2009, LoL ha sido un juego gratuito y se monetiza a través de la compra de elementos para la personalización de personajes y otros accesorios. El juego está disponible para Microsoft Windows y macOS.</p>
     """, unsafe_allow_html=True)
+    
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
+    
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
     video_url = "https://www.youtube.com/watch?v=Kv2rswmxBVs"
     st.video(video_url)
+    
 elif opcion == 'Acerca de':
     st.write('Aquí se mostraría la información adicional.')
 
