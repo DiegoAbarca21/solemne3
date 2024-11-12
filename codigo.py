@@ -32,19 +32,22 @@ opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campe
 
 if opcion == 'Información':
 
-    st.markdown("<h1 style='color: white;'>¿Información?</h1>", unsafe_allow_html=True)
-    
+    st.markdown("<h1 style='color: white;'>Información</h1>", unsafe_allow_html=True)
+
     st.markdown("<h3 style='color: white;'>¿Qué es League of Legends?</h3>", unsafe_allow_html=True)
-    
+
     st.markdown("""
     <div style="text-align: justify; text-justify: inter-word;">
-    <p style='color: white;'>League of Legends es un juego de estrategia por equipos en el que dos equipos conformados por cinco poderosos campeones se enfrentan para destruir la base del otro. Elige de entre más de 140 campeones para realizar jugadas épicas, asegurar asesinatos y destruir torretas mientras avanzas hacia la victoria.</p>
+        <p style='color: white;'>League of Legends es un juego de estrategia por equipos en el que dos equipos conformados por cinco poderosos campeones se enfrentan para destruir la base del otro. Elige de entre más de 140 campeones para realizar jugadas épicas, asegurar asesinatos y destruir torretas mientras avanzas hacia la victoria.</p>
+    </div>
     """, unsafe_allow_html=True)
 
     st.markdown("<h3 style='color: white;'>Destruye el nexo del enemigo</h3>", unsafe_allow_html=True)
+    
     st.markdown("""
     <div style="text-align: justify; text-justify: inter-word;">
-    <p style='color: white;'>El nexo es el corazón de las bases de ambos equipos. Destruye el nexo enemigo para ganar la partida.</p>
+        <p style='color: white;'>El nexo es el corazón de las bases de ambos equipos. Destruye el nexo enemigo para ganar la partida.</p>
+    </div>
     """, unsafe_allow_html=True)
     
 elif opcion == 'Campeones':
