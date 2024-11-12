@@ -47,7 +47,7 @@ if opcion == 'Información':
     st.markdown("<h3 style='color: white;'>Destruye el nexo del enemigo</h3>", unsafe_allow_html=True)
     st.markdown("""
     <div style="text-align: justify; text-justify: inter-word;">
-        <p style='color: white;'>El nexo es el corazón de las bases de ambos equipos. Destruye el nexo enemigo para ganar la partida.</p>
+        <p style='color: white;'>El nexo es el corazón de las bases de ambos equipos los cuales no permitiran tan facil que los destruyas. Abrete paso entre los enemigos y destruye su nexo ganar la partida.</p>
     </div>
     """, unsafe_allow_html=True)
     col1, col2 = st.columns(2)
