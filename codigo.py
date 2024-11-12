@@ -52,9 +52,9 @@ if opcion == 'Información':
     """, unsafe_allow_html=True)
     col1, col2 = st.columns(2)
     with col1:
-        st.image("imagenes/nexoazul.jpg", caption="nexoazul")
+        st.image("imagenes/nexoazul.jpg", caption="Nexo del equipo azul")
     with col2:
-        st.image("imagenes/nexorojo.jpg", caption="nexorojo")
+        st.image("imagenes/nexorojo.jpg", caption="Nexo del equipo rojo")
         
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
