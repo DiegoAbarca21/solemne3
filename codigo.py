@@ -32,7 +32,7 @@ opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campe
 
 if opcion == 'Información':
     #TITULO
-    st.markdown("<h1 style='color: white;'>Información</h1>", unsafe_allow_html=True)
+    st.markdown("<div style="text-align: center;"><h1 style='color: white;'>Información</h1>", unsafe_allow_html=True)
     
     #QUE ES LEAGUE OF LEGENDS?
     st.markdown("<h3 style='color: white;'>¿Qué es League of Legends?</h3>", unsafe_allow_html=True)
