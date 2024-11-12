@@ -7,6 +7,14 @@ import base64
 #base de datos pandas
 dfinf = pd.read_csv("backloggd_games.csv")
 
+def convertir_k(valor):
+    if isinstance(valor, str) and "K" in valor:
+        return float(valor.replace("K", "")) * 1000
+    else:
+        return float(valor)
+        
+dfinf["Playing"] = dfinf["Playing"].apply(convertir_k)
+
 #fondo
 def get_base64_of_bin_file(bin_file):
     with open(bin_file, 'rb') as f:
@@ -33,7 +41,7 @@ st.image('imagenes/letras.png', use_column_width=True)
 opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campeones', 'Competitivo', 'Acerca de'])
 
 if opcion == 'Información':
-    titulos = np.array(["title"])
+    titulos = np.array(dfinf["title"])
     #TITULO
     st.markdown(
     """
