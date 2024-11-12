@@ -31,21 +31,11 @@ st.image('imagenes/letras.png', use_column_width=True)
 opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campeones', 'Competitivo', 'Acerca de'])
 
 if opcion == 'Información':
-    st.markdown(
-    """
-    <style>
-    /* Elimina el margen o padding de la página */
-    .main > div {
-        padding-left: -300px !important;
-        padding-right: 0px !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True)
  
     #TITULO
     st.markdown(
     """
+    <div style="margin-left: -300px;">
     <div style="text-align: center;">
         <h1 style="color: white;">Información</h1>
     </div>
