@@ -70,6 +70,7 @@ if opcion == 'Información':
         <p style='color: white;'>Para llegar hasta el nexo enemigo, tu equipo tendrá que avanzar por al menos una calle. Hay estructuras defensivas que bloquean tu avance: las torretas y los inhibidores. Cada calle cuenta con tres torretas y un inhibidor. Además, cada nexo tiene dos torretas adicionales.</p>
     </div>
     """, unsafe_allow_html=True)
+    st.image('imagenes/torretainhibidores.jpg', use_column_width=True)
 
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
