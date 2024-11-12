@@ -31,6 +31,14 @@ st.image('imagenes/letras.png', use_column_width=True)
 opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campeones', 'Competitivo', 'Acerca de'])
 
 if opcion == 'Información':
+    st.markdown(
+    """
+    <div style="margin-left: 50px;">
+        <p>Este texto tiene una sangría aplicada a todo el bloque, no solo al primer renglón. Cada línea de texto dentro de este bloque estará desplazada hacia la derecha.</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+    
     #TITULO
     st.markdown(
     """
@@ -71,6 +79,21 @@ if opcion == 'Información':
     </div>
     """, unsafe_allow_html=True)
     st.image('imagenes/torretainhibidores.jpg', use_column_width=True)
+
+    #USA TUS HABILIDADES
+    st.markdown("<h3 style='color: white;'>Usa tus habilidades</h3>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style="text-align: justify; text-justify: inter-word;">
+        <p style='color: white;'>Los campeones cuentan con cinco habilidades básicas y dos hechizos especiales, y pueden equiparse con un máximo de siete objetos. Para que tu equipo se alce con la victoria, tendrás que ir descubriendo cuál es el orden de habilidades, hechizos de invocador y la configuración de objetos óptimos para tu campeón.</p>
+    </div>
+    """, unsafe_allow_html=True)
+    st.image('imagenes/torretainhibidores.jpg', use_column_width=True)
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image("imagenes/nexoazul.jpg", caption="Los súbditos se generan en tu nexo. Detrás del nexo se encuentra la fuente, donde podrás recuperar vida y maná con rapidez y acceder a la tienda.")
+    with col2:
+        st.image("imagenes/nexorojo.jpg", caption="El nexo enemigo, que se encuentra en la base del equipo contrario, es igual que el de tu equipo. Si acabas con él, ganarás la partida.")
+
 
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
