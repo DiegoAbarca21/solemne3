@@ -55,9 +55,15 @@ if opcion == 'Información':
         st.image("imagenes/nexoazul.jpg", caption="Los súbditos se generan en tu nexo. Detrás del nexo se encuentra la fuente, donde podrás recuperar vida y maná con rapidez y acceder a la tienda.")
     with col2:
         st.image("imagenes/nexorojo.jpg", caption="El nexo enemigo, que se encuentra en la base del equipo contrario, es igual que el de tu equipo. Si acabas con él, ganarás la partida.")
-
-
         
+    #Abrete paso
+    st.markdown("<h3 style='color: white;'>Abrete paso</h3>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style="text-align: justify; text-justify: inter-word;">
+        <p style='color: white;'>Para llegar hasta el nexo enemigo, tu equipo tendrá que avanzar por al menos una calle. Hay estructuras defensivas que bloquean tu avance: las torretas y los inhibidores. Cada calle cuenta con tres torretas y un inhibidor. Además, cada nexo tiene dos torretas adicionales.</p>
+    </div>
+    """, unsafe_allow_html=True)
+
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
     
