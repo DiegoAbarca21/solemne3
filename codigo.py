@@ -31,9 +31,10 @@ st.image('imagenes/letras.png', use_column_width=True)
 opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campeones', 'Competitivo', 'Acerca de'])
 
 if opcion == 'Información':
-
+    #TITULO
     st.markdown("<h1 style='color: white;'>Información</h1>", unsafe_allow_html=True)
-
+    
+    #QUE ES LEAGUE OF LEGENDS?
     st.markdown("<h3 style='color: white;'>¿Qué es League of Legends?</h3>", unsafe_allow_html=True)
     st.markdown("""
     <div style="text-align: justify; text-justify: inter-word;">
@@ -42,14 +43,19 @@ if opcion == 'Información':
     """, unsafe_allow_html=True)
     st.image('imagenes/informacionuno.jpg', use_column_width=True)
     
+    #DESTRUYE EL NEXO DEL ENEMIGO
     st.markdown("<h3 style='color: white;'>Destruye el nexo del enemigo</h3>", unsafe_allow_html=True)
-    
     st.markdown("""
     <div style="text-align: justify; text-justify: inter-word;">
         <p style='color: white;'>El nexo es el corazón de las bases de ambos equipos. Destruye el nexo enemigo para ganar la partida.</p>
     </div>
     """, unsafe_allow_html=True)
-    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image(image1, caption="imagenes/nexorojo.jpg")
+    with col2:
+        st.image(image2, caption="imagenes/nexoazul.jpg")
+        
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
     
