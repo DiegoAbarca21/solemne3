@@ -43,6 +43,7 @@ opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campe
 if opcion == 'Información':
     titulos = np.array(dfinf["Title"])
     jugando = np.array(dfinf["Playing"])
+    
     #TITULO
     st.markdown(
     """
@@ -152,8 +153,14 @@ if opcion == 'Información':
     </div>
     """, unsafe_allow_html=True
     )
+    plt.figure(figsize=(10, 5))
+    plt.plot(titulos, jugando, marker='o', color='b')
+    plt.title("Número de Jugadores por Título")
+    plt.xlabel("Título")
+    plt.ylabel("Jugando")
+    plt.xticks(rotation=45)
+    st.pyplot(plt)
     
-
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
     
