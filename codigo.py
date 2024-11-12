@@ -40,7 +40,7 @@ if opcion == 'Información':
         <p style='color: white;'>League of Legends es un juego de estrategia por equipos en el que dos equipos conformados por cinco poderosos campeones se enfrentan para destruir la base del otro. Elige de entre más de 140 campeones para realizar jugadas épicas, asegurar asesinatos y destruir torretas mientras avanzas hacia la victoria.</p>
     </div>
     """, unsafe_allow_html=True)
-    st.image('imagenes/informacionuno.png', use_column_width=True)
+    st.image('imagenes/informacionuno.jpg', use_column_width=True)
     
     st.markdown("<h3 style='color: white;'>Destruye el nexo del enemigo</h3>", unsafe_allow_html=True)
     
