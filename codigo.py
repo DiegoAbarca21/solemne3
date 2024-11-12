@@ -5,7 +5,8 @@ import altair as alt
 import base64
 
 #base de datos pandas
-dfjuegos = pd.read_csv("backloggd_games.csv")
+dfinf = pd.read_csv("backloggd_games.csv")
+
 #fondo
 def get_base64_of_bin_file(bin_file):
     with open(bin_file, 'rb') as f:
@@ -32,7 +33,7 @@ st.image('imagenes/letras.png', use_column_width=True)
 opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campeones', 'Competitivo', 'Acerca de'])
 
 if opcion == 'Información':
- 
+    titulos = np.array(["title"])
     #TITULO
     st.markdown(
     """
