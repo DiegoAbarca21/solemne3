@@ -51,12 +51,10 @@ if opcion == 'Información':
     </div>
     """, unsafe_allow_html=True)
     col1, col2 = st.columns(2)
-    nexoazul = "imagenes/nexoazul.jpg"  # Cambia esto por la ruta de tu primera imagen
-    nexorojo = "imagenes/nexorojo.jpg"
     with col1:
-        st.image(image1, caption="nexoazul")
+        st.image("imagenes/nexoazul.jpg", caption="nexoazul")
     with col2:
-        st.image(image2, caption="nexorojo")
+        st.image("imagenes/nexorojo.jpg", caption="nexorojo")
         
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
