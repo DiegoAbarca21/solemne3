@@ -33,12 +33,16 @@ opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campe
 if opcion == 'Información':
     st.markdown(
     """
-    <div style="margin-left: -300px;">
-        <p>Este texto tiene una sangría aplicada a todo el bloque, no solo al primer renglón. Cada línea de texto dentro de este bloque estará desplazada hacia la derecha.</p>
-    </div>
+    <style>
+    /* Elimina el margen o padding de la página */
+    .main > div {
+        padding-left: -300px !important;
+        padding-right: 0px !important;
+    }
+    </style>
     """,
     unsafe_allow_html=True)
-    
+ 
     #TITULO
     st.markdown(
     """
