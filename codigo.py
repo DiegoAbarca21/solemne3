@@ -101,8 +101,17 @@ if opcion == 'Información':
     st.image('imagenes/torretainhibidores.jpg', use_column_width=True)
     
     #USA TUS HABILIDADES
-    st.markdown("<h3 style='color: white;'>Usa tus habilidades</h3>", unsafe_allow_html=True)
+    st.markdown(
+    """
+    <div style="margin-left: -75px; margin-right: -75px;">
+        <h3 style="color: white;">Usa tus habilidades</h3>
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
     st.markdown("""
+    <div style="margin-left: -75px;">
+    <div style="margin-right: -75px;">
     <div style="text-align: justify; text-justify: inter-word;">
         <p style='color: white;'>Los campeones cuentan con cinco habilidades básicas y dos hechizos especiales, y pueden equiparse con un máximo de siete objetos. Para que tu equipo se alce con la victoria, tendrás que ir descubriendo cuál es el orden de habilidades, hechizos de invocador y la configuración de objetos óptimos para tu campeón.</p>
     </div>
