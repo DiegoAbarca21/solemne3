@@ -116,7 +116,7 @@ if opcion == 'Información':
         <p style='color: white;'>Los campeones cuentan con cinco habilidades básicas y dos hechizos especiales, y pueden equiparse con un máximo de siete objetos. Para que tu equipo se alce con la victoria, tendrás que ir descubriendo cuál es el orden de habilidades, hechizos de invocador y la configuración de objetos óptimos para tu campeón.</p>
     </div>
     """, unsafe_allow_html=True)
-    st.image('imagenes/torretainhibidores.jpg', use_column_width=True)
+    st.image('imagenes/habilidadescast.gif', use_column_width=True)
     col1, col2 = st.columns(2)
     with col1:
         st.image("imagenes/nexoazul.jpg", caption="Los súbditos se generan en tu nexo. Detrás del nexo se encuentra la fuente, donde podrás recuperar vida y maná con rapidez y acceder a la tienda.")
