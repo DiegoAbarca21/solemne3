@@ -35,7 +35,6 @@ if opcion == 'Información':
     #TITULO
     st.markdown(
     """
-    <div style="margin-left: -300px;">
     <div style="text-align: center;">
         <h1 style="color: white;">Información</h1>
     </div>
