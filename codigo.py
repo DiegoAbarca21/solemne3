@@ -83,13 +83,21 @@ if opcion == 'Información':
         st.image("imagenes/nexorojo.jpg", caption="El nexo enemigo, que se encuentra en la base del equipo contrario, es igual que el de tu equipo. Si acabas con él, ganarás la partida.")
         
     #Abrete paso
-    st.markdown("<h3 style='color: white;'>Abrete paso</h3>", unsafe_allow_html=True)
+    st.markdown(
+    """
+    <div style="margin-left: -75px; margin-right: -75px;">
+        <h3 style="color: white;">Abrete paso</h3>
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
     st.markdown("""
+    <div style="margin-left: -75px;">
+    <div style="margin-right: -75px;">
     <div style="text-align: justify; text-justify: inter-word;">
         <p style='color: white;'>Para llegar hasta el nexo enemigo, tu equipo tendrá que avanzar por al menos una calle. Hay estructuras defensivas que bloquean tu avance: las torretas y los inhibidores. Cada calle cuenta con tres torretas y un inhibidor. Además, cada nexo tiene dos torretas adicionales.</p>
     </div>
     """, unsafe_allow_html=True)
-    st.image('imagenes/torretainhibidores.jpg', use_column_width=True)
 
     #USA TUS HABILIDADES
     st.markdown("<h3 style='color: white;'>Usa tus habilidades</h3>", unsafe_allow_html=True)
