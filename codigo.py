@@ -37,7 +37,7 @@ if opcion == 'Información':
         <p>Este texto tiene una sangría aplicada a todo el bloque, no solo al primer renglón. Cada línea de texto dentro de este bloque estará desplazada hacia la derecha.</p>
     </div>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True)
     
     #TITULO
     st.markdown(
