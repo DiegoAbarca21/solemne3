@@ -43,7 +43,14 @@ if opcion == 'Información':
     )
     
     #QUE ES LEAGUE OF LEGENDS?
-    st.markdown("<h3 style='color: white;'>¿Qué es League of Legends?</h3>", unsafe_allow_html=True)
+    st.markdown(
+    """
+    <div style="margin-left: -300px; margin-right: -300px;">
+        <h3 style="color: white;">¿Qué es League of Legends?</h3>
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
     st.markdown("""
     <div style="margin-left: -300px;">
     <div style="margin-right: -300px;">
