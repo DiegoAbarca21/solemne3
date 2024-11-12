@@ -61,8 +61,17 @@ if opcion == 'Información':
     st.image('imagenes/informacionuno.jpg', use_column_width=True)
     
     #DESTRUYE EL NEXO DEL ENEMIGO
-    st.markdown("<h3 style='color: white;'>Destruye el nexo del enemigo</h3>", unsafe_allow_html=True)
+    st.markdown(
+    """
+    <div style="margin-left: -300px; margin-right: -300px;">
+        <h3 style="color: white;">Destruye el nexo del enemigo</h3>
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
     st.markdown("""
+    <div style="margin-left: -300px;">
+    <div style="margin-right: -300px;">
     <div style="text-align: justify; text-justify: inter-word;">
         <p style='color: white;'>El nexo es el corazón de las bases de ambos equipos los cuales no permitiran tan facil que los destruyas. Abrete paso entre los enemigos y destruye su nexo ganar la partida.</p>
     </div>
