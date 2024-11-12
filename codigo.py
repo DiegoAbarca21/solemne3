@@ -42,6 +42,7 @@ opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campe
 
 if opcion == 'Información':
     titulos = np.array(dfinf["Title"])
+    jugando = np.array(dfinf["Playing"])
     #TITULO
     st.markdown(
     """
