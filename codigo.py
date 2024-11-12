@@ -4,7 +4,8 @@ import pandas as pd
 import altair as alt
 import base64
 
-
+#base de datos pandas
+dfjuegos = pd.read_csv("backloggd_games.csv")
 #fondo
 def get_base64_of_bin_file(bin_file):
     with open(bin_file, 'rb') as f:
