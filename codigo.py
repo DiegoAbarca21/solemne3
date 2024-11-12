@@ -25,8 +25,8 @@ page_bg_img = f"""
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-st.sidebar.image('imagenes/logo.png', caption='Imagen en la barra lateral', use_column_width=True)
-st.image('imagenes/letras.png', caption='Una bonita imagen', use_column_width=True)
+st.sidebar.image('imagenes/logo.png', use_column_width=True)
+st.image('imagenes/letras.png', use_column_width=True)
 
 opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campeones', 'Competitivo', 'Acerca de'])
 
