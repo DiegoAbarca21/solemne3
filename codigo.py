@@ -46,6 +46,7 @@ if opcion == 'Información':
     st.markdown("<h3 style='color: white;'>¿Qué es League of Legends?</h3>", unsafe_allow_html=True)
     st.markdown("""
     <div style="margin-left: -300px;">
+    <div style="margin-left: 300px;">
     <div style="text-align: justify; text-justify: inter-word;">
         <p style='color: white;'>League of Legends es un juego de estrategia por equipos en el que dos equipos conformados por cinco poderosos campeones se enfrentan para destruir la base del otro. Elige de entre más de 140 campeones para realizar jugadas épicas, asegurar asesinatos y destruir torretas mientras avanzas hacia la victoria.</p>
     </div>
