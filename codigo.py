@@ -151,13 +151,11 @@ if opcion == 'Información':
     """, unsafe_allow_html=True
     )
     chart = alt.Chart(dfinf).mark_bar().encode(
-    x=alt.X("Playing", title="Jugando"),
-    y=alt.Y("Title", title="VideoJuegos", sort=None),  # Ya están ordenados en el DataFrame
+    x=alt.X("Playing", title=None),
+    y=alt.Y("Title", title=None, sort=None),
     color=alt.Color('highlight:N', legend=None, scale=alt.Scale(domain=['normal', 'highlight'], range=['#cccccc', '#ff0000']))  # Resaltar con color rojo
     ).properties(
-        title="Número de Jugadores por Título",
-        width=600,
-        height=400
+        title=None
     )
     
     # Mostrar el gráfico en Streamlit
