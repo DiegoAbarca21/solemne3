@@ -152,7 +152,7 @@ if opcion == 'Información':
     )
     chart = alt.Chart(dfinf).mark_bar().encode(
     x=alt.X("Playing", title="Jugando"),
-    y=alt.Y("Title", title=None, sort=None)  # Ya están ordenados en el DataFrame
+    y=alt.Y("Title", title=VideoJuegos, sort=None)  # Ya están ordenados en el DataFrame
     ).properties(
         title="Número de Jugadores por Título",
         width=600,
