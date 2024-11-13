@@ -15,7 +15,7 @@ def convertir_k(valor):
         return float(valor)
         
 dfinf["Playing"] = dfinf["Playing"].apply(convertir_k)
-
+dfinf = dfinf.sort_values("Playing", ascending=False)
 #fondo
 def get_base64_of_bin_file(bin_file):
     with open(bin_file, 'rb') as f:
