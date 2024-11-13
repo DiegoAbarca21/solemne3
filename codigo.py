@@ -66,7 +66,7 @@ if opcion == 'Información':
     <div style="margin-left: -75px;">
     <div style="margin-right: -75px;">
     <div style="text-align: justify; text-justify: inter-word;">
-        <p style='color: white;'>League of Legends es un juego de estrategia por equipos en el que dos equipos conformados por cinco poderosos campeones se enfrentan para destruir la base del otro. Elige de entre más de 140 campeones para realizar jugadas épicas, asegurar asesinatos y destruir torretas mientras avanzas hacia la victoria.</p>
+        <p style='color: white;'>League of Legends (también conocido por sus siglas LoL) es un videojuego multijugador de arena de batalla en línea desarrollado y publicado por Riot Games. Inspirándose en Defense of the Ancients, un mapa personalizado para Warcraft III, los fundadores de Riot buscaron desarrollar un juego independiente del mismo género. Desde su lanzamiento en octubre de 2009, LoL ha sido un juego gratuito y se monetiza a través de la compra de elementos para la personalización de personajes y otros accesorios. El juego está disponible para Microsoft Windows y macOS.</p>
     </div>
     """, unsafe_allow_html=True)
     st.image('imagenes/informacionuno.jpg', use_column_width=True)
