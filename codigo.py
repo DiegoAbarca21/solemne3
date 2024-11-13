@@ -5,7 +5,7 @@ import pandas as pd
 import altair as alt
 import base64
 
-#base de datos pandas
+#base de datos pandas en informacion
 dfinf = pd.read_csv("backloggd_games.csv")
 def convertir_k(valor):
     if isinstance(valor, str) and "K" in valor:
@@ -14,6 +14,7 @@ def convertir_k(valor):
         return float(valor)
 dfinf["Playing"] = dfinf["Playing"].apply(convertir_k)
 dfinf = dfinf.sort_values("Playing", ascending=False)
+dfinf['highlight'] = dfinf['Title'].apply(lambda x: 'highlight' if x == 'League of Legends' else 'normal')
 
 #fondo
 def get_base64_of_bin_file(bin_file):
@@ -151,6 +152,14 @@ if opcion == 'Información':
     """, unsafe_allow_html=True
     )
 
+    chart = alt.Chart(dfinf).mark_bar().encode(
+    x=alt.X("Playing", title=None),
+    y=alt.Y("Title", title=None, sort=None),
+    color=alt.Color('highlight:N', legend=None, scale=alt.Scale(domain=['normal', 'highlight'], range=['#cccccc', '#ff0000']))  # Resaltar con color rojo
+    ).properties(
+        title=None
+    )
+    st.altair_chart(chart, use_container_width=True)
     
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
