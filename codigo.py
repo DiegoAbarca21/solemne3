@@ -150,19 +150,7 @@ if opcion == 'Información':
     </div>
     """, unsafe_allow_html=True
     )
-    
-    dfinf['highlight'] = dfinf['Title'].apply(lambda x: 'highlight' if x == 'League of Legends' else 'normal')
 
-    # Crear el gráfico de barras con Altair
-    chart = alt.Chart(dfinf).mark_bar().encode(
-        x=alt.X("Playing", title=None),
-        y=alt.Y("Title", title=None, sort=None),
-        color=alt.Color('highlight:N', legend=None, scale=alt.Scale(domain=['normal', 'highlight'], range=['#cccccc', '#ff0000']))  # Resaltar con color rojo
-    ).properties(
-        title=None
-    )
-    # Mostrar el gráfico en Streamlit
-    st.altair_chart(chart, use_container_width=True)
     
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
