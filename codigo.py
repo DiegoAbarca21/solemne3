@@ -156,7 +156,7 @@ if opcion == 'Información':
     chart = alt.Chart(dfinf).mark_bar().encode(
     x=alt.X("Playing", title=None),
     y=alt.Y("Title", title=None, sort=None),
-    color=alt.Color('highlight:N', legend=None, scale=alt.Scale(domain=['normal', 'highlight'], range=['#cccccc', '#ff0000']))  # Resaltar con color rojo
+    color=alt.Color('highlight:N', legend=None, scale=alt.Scale(domain=['normal', 'highlight'], range=['#cccccc', 'lightgreen']))  # Resaltar con color rojo
     )
     
     # Mostrar el gráfico en Streamlit
