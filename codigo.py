@@ -7,15 +7,14 @@ import base64
 
 #base de datos pandas
 dfinf = pd.read_csv("backloggd_games.csv")
-dfinf = dfinf.sort_values("Playing", ascending=False)
 def convertir_k(valor):
     if isinstance(valor, str) and "K" in valor:
         return float(valor.replace("K", "")) * 1000
     else:
         return float(valor)
-        
 dfinf["Playing"] = dfinf["Playing"].apply(convertir_k)
 dfinf = dfinf.sort_values("Playing", ascending=False)
+
 #fondo
 def get_base64_of_bin_file(bin_file):
     with open(bin_file, 'rb') as f:
@@ -151,15 +150,16 @@ if opcion == 'Información':
     </div>
     """, unsafe_allow_html=True
     )
-    
-    chart = alt.Chart(dfinf).mark_line(point=True).encode(
-    x=alt.X("Title", title="Título"),
-    y=alt.Y("Playing", title="Jugando")
+    chart = alt.Chart(dfinf).mark_bar().encode(
+    x=alt.X("Playing", title="Jugando"),
+    y=alt.Y("Title", title="Título", sort=None)  # Ya están ordenados en el DataFrame
     ).properties(
-    title="Número de Jugadores por Título",
-    width=600,
-    height=400
+        title="Número de Jugadores por Título",
+        width=600,
+        height=400
     )
+    
+    # Mostrar el gráfico en Streamlit
     st.altair_chart(chart, use_container_width=True)
     
 elif opcion == 'Campeones':
