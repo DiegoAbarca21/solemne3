@@ -156,8 +156,6 @@ if opcion == 'Información':
     x=alt.X("Playing", title=None),
     y=alt.Y("Title", title=None, sort=None),
     color=alt.Color('highlight:N', legend=None, scale=alt.Scale(domain=['normal', 'highlight'], range=['#cccccc', '#ff0000']))  # Resaltar con color rojo
-    ).properties(
-        title=None
     )
     
     # Mostrar el gráfico en Streamlit
