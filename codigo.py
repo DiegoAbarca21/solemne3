@@ -154,9 +154,13 @@ if opcion == 'Información':
     )
 
     chart = alt.Chart(dfinf).mark_bar().encode(
-    x=alt.X("Playing", title=None),
-    y=alt.Y("Title", title=None, sort=None),
-    color=alt.Color('highlight:N', legend=None, scale=alt.Scale(domain=['normal', 'highlight'], range=['#cccccc', 'lightgreen']))  # Resaltar con color rojo
+    x=alt.X("Playing", title="Jugadores activos"),
+    y=alt.Y("Title", title="Juegos", sort=None),
+    color=alt.Color('highlight:N', legend=None, scale=alt.Scale(domain=['normal', 'highlight'], range=['#cccccc', 'lightgreen']))
+    ).properties(
+    title="Número de Jugadores por Título",
+    width=600,
+    height=400
     )
     
     # Mostrar el gráfico en Streamlit
