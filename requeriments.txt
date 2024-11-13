@@ -4,3 +4,5 @@ streamlit
 webbrowser
 numpy
 base64
+plotly
+matplotlib
