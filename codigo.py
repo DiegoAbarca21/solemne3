@@ -153,14 +153,17 @@ if opcion == 'Información':
     )
 
     chart = alt.Chart(dfinf).mark_bar().encode(
-    x=alt.X("Playing", title=None),
-    y=alt.Y("Title", title=None, sort=None),
-    color=alt.Color('highlight:N', legend=None, scale=alt.Scale(domain=['normal', 'highlight'], range=['#cccccc', '#ff0000']))  # Resaltar con color rojo
+    x=alt.X("Playing", title="Jugando"),
+    y=alt.Y("Title", title="Título", sort=None)  # Ya están ordenados en el DataFrame
     ).properties(
-        title=None
+        title="Número de Jugadores por Título",
+        width=600,
+        height=400
     )
-    st.altair_chart(chart, use_container_width=True)
     
+    # Mostrar el gráfico en Streamlit
+    st.altair_chart(chart, use_container_width=True)
+
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
     
