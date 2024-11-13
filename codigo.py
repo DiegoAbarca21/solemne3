@@ -15,6 +15,7 @@ def convertir_k(valor):
 dfinf["Playing"] = dfinf["Playing"].apply(convertir_k)
 dfinf = dfinf.sort_values("Playing", ascending=False)
 dfinf['highlight'] = dfinf['Title'].apply(lambda x: 'highlight' if x == 'League of Legends' else 'normal')
+dfinf = dfinf.head(30)
 
 #fondo
 def get_base64_of_bin_file(bin_file):
