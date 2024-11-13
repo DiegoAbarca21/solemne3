@@ -7,7 +7,7 @@ import base64
 
 #base de datos pandas
 dfinf = pd.read_csv("backloggd_games.csv")
-
+dfinf = dfinf.sort_values("Playing", ascending=False)
 def convertir_k(valor):
     if isinstance(valor, str) and "K" in valor:
         return float(valor.replace("K", "")) * 1000
@@ -42,11 +42,6 @@ st.image('imagenes/letras.png', use_column_width=True)
 opcion = st.sidebar.selectbox('Selecciona una sección', ['Información', 'Campeones', 'Competitivo', 'Acerca de'])
 
 if opcion == 'Información':
-    titulos = np.array(dfinf["Title"])
-    jugando = np.array(dfinf["Playing"])
-
-    print(titulos)
-    print(jugando)
     #TITULO
     st.markdown(
     """
