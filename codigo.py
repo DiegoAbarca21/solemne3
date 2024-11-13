@@ -159,7 +159,7 @@ if opcion == 'Información':
     color=alt.Color('highlight:N', legend=None, scale=alt.Scale(domain=['normal', 'highlight'], range=['#cccccc', 'lightgreen']))
     ).properties(
     title="Número de Jugadores por Título",
-    width=600,
+    width=200,
     height=400
     )
     
