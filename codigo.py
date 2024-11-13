@@ -154,13 +154,16 @@ if opcion == 'Información':
     </div>
     """, unsafe_allow_html=True
     )
-    plt.figure(figsize=(10, 5))
-    plt.plot(titulos, jugando, marker='o', color='b')
-    plt.title("Número de Jugadores por Título")
-    plt.xlabel("Título")
-    plt.ylabel("Jugando")
-    plt.xticks(rotation=45)
-    st.pyplot(plt)
+    
+    chart = alt.Chart(dfinf).mark_line(point=True).encode(
+    x=alt.X("Title", title="Título"),
+    y=alt.Y("Playing", title="Jugando")
+    ).properties(
+    title="Número de Jugadores por Título",
+    width=600,
+    height=400
+    )
+    st.altair_chart(chart, use_container_width=True)
     
 elif opcion == 'Campeones':
     st.write('Aquí van los datos.')
