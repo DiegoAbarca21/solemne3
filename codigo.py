@@ -175,7 +175,32 @@ elif opcion == 'Competitivo':
     st.video(video_url)
     
 elif opcion == 'Acerca de':
-    st.write('Aquí se mostraría la información adicional.')
+     #TITULO
+    st.markdown(
+    """
+    <div style="text-align: center;">
+        <h1 style="color: white;">Información</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
+    
+    #QUE ES LEAGUE OF LEGENDS?
+    st.markdown(
+    """
+    <div style="margin-left: -75px; margin-right: -75px;">
+        <h3 style="color: white;">¿Qué es League of Legends?</h3>
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
+    st.markdown("""
+    <div style="margin-left: -75px;">
+    <div style="margin-right: -75px;">
+    <div style="text-align: justify; text-justify: inter-word;">
+        <p style='color: white;'>League of Legends (también conocido por sus siglas LoL) es un videojuego multijugador de arena de batalla en línea desarrollado y publicado por Riot Games. Inspirándose en Defense of the Ancients, un mapa personalizado para Warcraft III, los fundadores de Riot buscaron desarrollar un juego independiente del mismo género. Desde su lanzamiento en octubre de 2009, LoL ha sido un juego gratuito y se monetiza a través de la compra de elementos para la personalización de personajes y otros accesorios. El juego está disponible para Microsoft Windows y macOS.</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 
 
