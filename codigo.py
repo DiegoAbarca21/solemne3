@@ -234,6 +234,35 @@ elif opcion == 'Acerca de':
     </div>
     """, unsafe_allow_html=True)
 
+    st.markdown(
+    """
+    <div style="margin-left: -75px; margin-right: -75px;">
+        <h3 style="color: white;">Ing. Civil Informatica</h3>
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
+    st.markdown(
+    """
+    <div style="margin-left: -75px; margin-right: -75px;">
+        <h3 style="color: white;">USS All rights reserved</h3>
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
+    st.markdown("""
+    <div style="margin-left: -75px;">
+    <div style="margin-right: -75px;">
+    <div style="text-align: justify; text-justify: inter-word;">
+        <p style='color: white;'>League of legends es un juego de riot games</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.image('imagenes/logouss.png', use_column_width=True)
+
+    
+    
+
     
 
 
