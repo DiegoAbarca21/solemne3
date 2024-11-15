@@ -99,7 +99,7 @@ if opcion == 'Información':
     <div style="margin-left: -75px; margin-right: -75px;">
         <h3 style="color: white;">Abrete paso</h3>
     </div>
-    """,s
+    """
     unsafe_allow_html=True
     )
     st.markdown("""
