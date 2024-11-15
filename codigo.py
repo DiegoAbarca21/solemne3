@@ -218,6 +218,22 @@ elif opcion == 'Acerca de':
     </div>
     """, unsafe_allow_html=True)
 
+    st.markdown(
+    """
+    <div style="margin-left: -75px; margin-right: -75px;">
+        <h3 style="color: white;">Profesora</h3>
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
+    st.markdown("""
+    <div style="margin-left: -75px;">
+    <div style="margin-right: -75px;">
+    <div style="text-align: justify; text-justify: inter-word;">
+        <p style='color: white;'>Monica Otero Ferreiro</p>
+    </div>
+    """, unsafe_allow_html=True)
+
     
 
 
