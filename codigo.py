@@ -294,35 +294,8 @@ elif opcion == 'Campeones':
                            ("imagenes/sylas.jpg", "Sylas"),
                            ("imagenes/syndra.jpg", "Syndra"),
                            ("imagenes/tahmkench.jpg", "Tahmkench"),
-                           ("imagenes/taliyah.jpg", "Taliyah"),
-                           ("imagenes/talon.jpg", "Talon"),
-                           ("imagenes/taric.jpg", "Taric"),
-                           ("imagenes/teemo.jpg", "Teemo"),
-                           ("imagenes/thresh.jpg", "Thresh"),
-                           ("imagenes/tristana.jpg", "Tristana"),
-                           ("imagenes/trundle.jpg", "Trundle"),
-                           ("imagenes/tryndamere.jpg", "Tryndamere"),
-                           ("imagenes/twistedfate.jpg", "Twistedfate"),
-                           ("imagenes/twitch.jpg", "Twitch"),
-                           ("imagenes/udyr.jpg", "Udyr"),
-                           ("imagenes/urgot.jpg", "Urgot"),
-                           ("imagenes/varus.jpg", "Varus"),
-                           ("imagenes/vayne.jpg", "Vayne"),
-                           ("imagenes/veigar.jpg", "Veigar"),
-                           ("imagenes/velkoz.jpg", "Velkoz"),
-                           ("imagenes/vex.jpg", "Vex"),
-                           ("imagenes/vi.jpg", "Vi"),
-                           ("imagenes/viego.jpg", "Viego"),
-                           ("imagenes/viktor.jpg", "Viktor"),
-                           ("imagenes/vladimir.jpg", "Vladimir"),
-                           ("imagenes/volibear.jpg", "Volibear"),
-                           ("imagenes/warwick.jpg", "Warwick"),
-                           ("imagenes/wukong.jpg", "Wukong"),
-                           ("imagenes/xayah.jpg", "Xayah"),
-                           ("imagenes/xerath.jpg", "Xerath"),
-                           ("imagenes/xinzhao.jpg", "Xinzhao"),
-                           ("imagenes/yasuo.jpg", "Yasuo"),
-                           ("imagenes/yi.jpg", "Yi"),]:
+                           ("imagenes/taliyah.jpg", "Taliyah"),]:
+
             col1, col2 = st.columns([1, 1])  # Proporciones iguales para columnas
             with col1:
                 st.image(img, width=45)  # Ajusta el tamaño de la imagen
