@@ -192,18 +192,7 @@ elif opcion == 'Campeones':
         st.session_state.seccion = "Planetas"
     elif st.sidebar.button("Estrellas"):
         st.session_state.seccion = "Estrellas"
-    
-    # Botón con imagen y texto de Eclipse
-    if st.sidebar.image(imagen_eclipse, caption="Eclipse", use_column_width=True):
-        st.session_state.seccion = "Eclipse"
-        
-    if st.sidebar.image(imagen_planetas, caption="Planetas", use_column_width=True):
-        st.session_state.seccion = "Planetas"
-    
-    if st.sidebar.image(imagen_estrellas, caption="Estrellas", use_column_width=True):
-        st.session_state.seccion = "Estrellas"
-    
-    # Mostrar la información en la página principal según la opción seleccionada
+
     if "seccion" in st.session_state:
         mostrar_informacion(st.session_state.seccion)
     else:
