@@ -196,12 +196,15 @@ elif opcion == 'Campeones':
                 st.image(img, width=45)  # Ajusta el tamaño de la imagen
             with col2:
                 if st.button(title):  # Al presionar un botón, se actualiza el mensaje
-                    mensaje = f"Has seleccionado a **{title}**"
+                    mensaje = title
     
     # Mostrar el mensaje en la página principal
-    if mensaje:
-        st.write(mensaje)
-                
+    if mensaje == "Ahri":
+        st.write("Haz seleccionado a Aatrox")
+    elif mensaje == "Ahri"
+        st.write("Haz seleccionado a Ahri")
+
+
     
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
