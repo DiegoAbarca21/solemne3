@@ -199,9 +199,9 @@ elif opcion == 'Campeones':
                     mensaje = title
     
     # Mostrar el mensaje en la página principal
-    if mensaje == "Ahri":
+    if mensaje == "Aatrox":
         st.write("Haz seleccionado a Aatrox")
-    elif mensaje == "Ahri"
+    elif mensaje == "Ahri":
         st.write("Haz seleccionado a Ahri")
 
 
