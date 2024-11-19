@@ -174,71 +174,23 @@ if opcion == 'Información':
 
 elif opcion == 'Campeones':
 
-
-    
     col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.columns(10)
- 
-    # Mostrar las imágenes como botones
     with col1:
-        # Mostrar imagen que actúa como botón
-        img_button = st.image("imagenes/eclipseinf.jpg", use_column_width=True)
-        
-        # Detectar clic en la imagen
-        if st.session_state.get("img_button_clicked", False):
-            show_info("eclipseinf")
-            
-        # Esta función para cambiar el estado de clic
-        if st.image("imagenes/eclipseinf.jpg", use_column_width=True) is not None:
-            st.session_state["img_button_clicked"] = True
-        
-    with col2:
-        if st.button('Ver información de Luden Companion', key='btn2'):
-            show_info("ludencompanioninf")
-        st.image("imagenes/ludencompanioninf.jpg")
+    image_path = "imagenes/eclipseinf.jpg"
+        # Mostrar la imagen
+        st.image(image_path, use_column_width=True)
     
-    with col3:
-        if st.button('Ver información de Eclipse', key='btn3'):
-            show_info("eclipseinf")
-        st.image("imagenes/eclipseinf.jpg")
-    
-    with col4:
-        if st.button('Ver información de Luden Companion', key='btn4'):
-            show_info("ludencompanioninf")
-        st.image("imagenes/ludencompanioninf.jpg")
-    
-    with col5:
-        if st.button('Ver información de Eclipse', key='btn5'):
-            show_info("eclipseinf")
-        st.image("imagenes/eclipseinf.jpg")
-    
-    with col6:
-        if st.button('Ver información de Luden Companion', key='btn6'):
-            show_info("ludencompanioninf")
-        st.image("imagenes/ludencompanioninf.jpg")
-    
-    with col7:
-        if st.button('Ver información de Eclipse', key='btn7'):
-            show_info("eclipseinf")
-        st.image("imagenes/eclipseinf.jpg")
-    
-    with col8:
-        if st.button('Ver información de Luden Companion', key='btn8'):
-            show_info("ludencompanioninf")
-        st.image("imagenes/ludencompanioninf.jpg")
-    
-    with col9:
-        if st.button('Ver información de Eclipse', key='btn9'):
-            show_info("eclipseinf")
-        st.image("imagenes/eclipseinf.jpg")
-    
-    with col10:
-        if st.button('Ver información de Luden Companion', key='btn10'):
-            show_info("ludencompanioninf")
-        st.image("imagenes/ludencompanioninf.jpg")
+    # Detectar clic en la imagen
+    if st.button('Ir a la sección del Eclipse', key='btn1'):
+        st.markdown('<a href="#eclipse" style="font-size: 0px;">Ir a la sección Eclipse</a>', unsafe_allow_html=True)
 
-
-
-
+# --- Sección de información del Eclipse (nueva sección en la página) ---
+    st.markdown('## Sección del Eclipse')
+    st.markdown('<div id="eclipse"></div>', unsafe_allow_html=True)
+    
+    # Aquí puedes mostrar la información detallada o cualquier contenido que desees para esa sección
+    if st.session_state.get('btn1', False): 
+        show_info("eclipseinf")
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
     video_url = "https://www.youtube.com/watch?v=Kv2rswmxBVs"
