@@ -193,6 +193,7 @@ elif opcion == 'Campeones':
                            ("imagenes/viego.jpg", "Viego"),
                            ("imagenes/viktor.jpg", "Viktor"),
                            ("imagenes/vladimir.jpg", "Vladimir"),
+                           ("imagenes/tahmkench.jpg", "Tahmkench"),
                            ("imagenes/volibear.jpg", "Volibear"),
                            ("imagenes/warwick.jpg", "Warwick"),
                            ("imagenes/wukong.jpg", "Wukong"),
