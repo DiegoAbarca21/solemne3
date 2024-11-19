@@ -321,7 +321,7 @@ elif opcion == 'Campeones':
                            ("imagenes/yi.jpg", "Yi"),]:
             col1, col2 = st.columns([1, 1])  # Proporciones iguales para columnas
             with col1:
-                st.image(img, width=45)  # Ajusta el tamaño de la imagen
+                st.image(img, width=50)  # Ajusta el tamaño de la imagen
             with col2:
                 if st.button(title):  # Al presionar un botón, se actualiza el mensaje
                     mensaje = title
