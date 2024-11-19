@@ -190,7 +190,7 @@ elif opcion == 'Campeones':
     with st.sidebar:    
         for img, title in [("imagenes/aatrox.jpg", "Aatrox"),
                            ("imagenes/ahri.jpg", "Ahri"),
-                           ("imagenes/akali.jpg", "Akali")
+                           ("imagenes/akali.jpg", "Akali"),
                            ("imagenes/akali.jpg", "Akshan")]:
             col1, col2 = st.columns([1, 1])  # Proporciones iguales para columnas
             with col1:
