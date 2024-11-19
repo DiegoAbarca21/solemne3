@@ -173,24 +173,32 @@ if opcion == 'Información':
     st.altair_chart(chart, use_container_width=True)
 
 elif opcion == 'Campeones':
-
     col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.columns(10)
     with col1:
-    image_path = "imagenes/eclipseinf.jpg"
-        # Mostrar la imagen
-        st.image(image_path, use_column_width=True)
-    
-    # Detectar clic en la imagen
-    if st.button('Ir a la sección del Eclipse', key='btn1'):
-        st.markdown('<a href="#eclipse" style="font-size: 0px;">Ir a la sección Eclipse</a>', unsafe_allow_html=True)
-
-# --- Sección de información del Eclipse (nueva sección en la página) ---
-    st.markdown('## Sección del Eclipse')
-    st.markdown('<div id="eclipse"></div>', unsafe_allow_html=True)
-    
-    # Aquí puedes mostrar la información detallada o cualquier contenido que desees para esa sección
-    if st.session_state.get('btn1', False): 
-        show_info("eclipseinf")
+        st.markdown("""
+<a href="https://www.youtube.com/watch?v=aR-KAldshAE" target="_blank">
+    <img src="imagenes/eclipseinf.jpg" alt="Imagen de fondo" style="width:100%; height:auto; cursor: pointer;">
+</a>
+""", unsafe_allow_html=True)
+        #st.image("imagenes/eclipseinf.jpg")
+    with col2:
+        st.image("imagenes/ludencompanioninf.jpg")
+    with col3:
+        st.image("imagenes/eclipseinf.jpg")
+    with col4:
+        st.image("imagenes/ludencompanioninf.jpg")
+    with col5:
+        st.image("imagenes/eclipseinf.jpg")
+    with col6:
+        st.image("imagenes/ludencompanioninf.jpg")
+    with col7:
+        st.image("imagenes/eclipseinf.jpg")
+    with col8:
+        st.image("imagenes/ludencompanioninf.jpg")
+    with col9:
+        st.image("imagenes/eclipseinf.jpg")
+    with col10:
+        st.image("imagenes/ludencompanioninf.jpg")
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
     video_url = "https://www.youtube.com/watch?v=Kv2rswmxBVs"
