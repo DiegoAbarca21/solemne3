@@ -185,13 +185,13 @@ elif opcion == 'Campeones':
     imagen_planetas = "imagenes/ludencompanioninf.jpg"
     imagen_estrellas = "imagenes/ludencompanioninf.jpg"
 
-    st.sidebar.title("Navegación")
-    if st.sidebar.button("Eclipse"):
-        st.session_state.seccion = "Eclipse"
-    elif st.sidebar.button("Planetas"):
-        st.session_state.seccion = "Planetas"
-    elif st.sidebar.button("Estrellas"):
-        st.session_state.seccion = "Estrellas"
+    st.sidebar.title("Lista de campeones")
+    if st.sidebar.button("Aatrox"):
+        st.session_state.seccion = "Aatrox"
+    elif st.sidebar.button("Ahri"):
+        st.session_state.seccion = "Ahri"
+    elif st.sidebar.button("Akali"):
+        st.session_state.seccion = "Akali"
 
     if "seccion" in st.session_state:
         mostrar_informacion(st.session_state.seccion)
