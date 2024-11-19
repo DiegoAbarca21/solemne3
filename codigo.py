@@ -181,19 +181,15 @@ if opcion == 'Información':
     st.altair_chart(chart, use_container_width=True)
 
 elif opcion == 'Campeones':
-    imagen_eclipse = "imagenes/ludencompanioninf.jpg"
-    imagen_planetas = "imagenes/ludencompanioninf.jpg"
-    imagen_estrellas = "imagenes/ludencompanioninf.jpg"
-
     st.sidebar.title("Lista de campeones")
         
     with st.sidebar:
         col1, col2 = st.columns(2)
 
         with col1:
-            st.image("imagenes/aatrox.jpg", caption="Aatrox")
-            st.image("imagenes/ahri.jpg", caption="Ahri")
-            st.image("imagenes/akali.jpg", caption="Akali")
+            st.image("imagenes/aatrox.jpg")
+            st.image("imagenes/ahri.jpg")
+            st.image("imagenes/akali.jpg")
     
         with col2:
             aatrox_clicked = st.button("Aatrox")
