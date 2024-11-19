@@ -176,7 +176,7 @@ elif opcion == 'Campeones':
         for img, title in [("imagenes/aatrox.jpg", "Aatrox"),
                            ("imagenes/ahri.jpg", "Ahri"),
                            ("imagenes/akali.jpg", "Akali"),
-                           ("imagenes/akali.jpg", "Akshan"),
+                           ("imagenes/akshan.jpg", "Akshan"),
                            ("imagenes/alistar.jpg", "Alistar"),
                            ("imagenes/ambessa.jpg", "Ambessa"),
                            ("imagenes/amumu.jpg", "Amumu"),
