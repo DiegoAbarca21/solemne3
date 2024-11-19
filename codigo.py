@@ -167,8 +167,72 @@ if opcion == 'Información':
     st.altair_chart(chart, use_container_width=True)
 
 elif opcion == 'Campeones':
-    st.write('Aquí van los datos.')
+
+
     
+    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.columns(10)
+    
+    # Función para mostrar contenido adicional cuando se hace clic en el botón
+    def show_info(image_name):
+        if image_name == "eclipseinf":
+            st.write("Información sobre Eclipse.")
+        elif image_name == "ludencompanioninf":
+            st.write("Información sobre Luden Companion.")
+    
+    # Mostrar las imágenes como botones
+    with col1:
+        if st.button('Ver información de Eclipse', key='btn1'):
+            show_info("eclipseinf")
+        st.image("imagenes/eclipseinf.jpg")
+    
+    with col2:
+        if st.button('Ver información de Luden Companion', key='btn2'):
+            show_info("ludencompanioninf")
+        st.image("imagenes/ludencompanioninf.jpg")
+    
+    with col3:
+        if st.button('Ver información de Eclipse', key='btn3'):
+            show_info("eclipseinf")
+        st.image("imagenes/eclipseinf.jpg")
+    
+    with col4:
+        if st.button('Ver información de Luden Companion', key='btn4'):
+            show_info("ludencompanioninf")
+        st.image("imagenes/ludencompanioninf.jpg")
+    
+    with col5:
+        if st.button('Ver información de Eclipse', key='btn5'):
+            show_info("eclipseinf")
+        st.image("imagenes/eclipseinf.jpg")
+    
+    with col6:
+        if st.button('Ver información de Luden Companion', key='btn6'):
+            show_info("ludencompanioninf")
+        st.image("imagenes/ludencompanioninf.jpg")
+    
+    with col7:
+        if st.button('Ver información de Eclipse', key='btn7'):
+            show_info("eclipseinf")
+        st.image("imagenes/eclipseinf.jpg")
+    
+    with col8:
+        if st.button('Ver información de Luden Companion', key='btn8'):
+            show_info("ludencompanioninf")
+        st.image("imagenes/ludencompanioninf.jpg")
+    
+    with col9:
+        if st.button('Ver información de Eclipse', key='btn9'):
+            show_info("eclipseinf")
+        st.image("imagenes/eclipseinf.jpg")
+    
+    with col10:
+        if st.button('Ver información de Luden Companion', key='btn10'):
+            show_info("ludencompanioninf")
+        st.image("imagenes/ludencompanioninf.jpg")
+
+
+
+
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
     video_url = "https://www.youtube.com/watch?v=Kv2rswmxBVs"
