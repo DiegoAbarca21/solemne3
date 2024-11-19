@@ -203,7 +203,8 @@ elif opcion == 'Campeones':
         st.write("Haz seleccionado a Aatrox")
     elif mensaje == "Ahri":
         st.write("Haz seleccionado a Ahri")
-
+    elif mensaje == "Akali":
+        st.write("Haz seleccionado a Akali")
 
     
 elif opcion == 'Competitivo':
