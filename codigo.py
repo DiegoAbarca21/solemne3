@@ -1,23 +1,8 @@
 import streamlit as st
-
 import numpy as np
 import pandas as pd
 import altair as alt
 import base64
-
-def mostrar_informacion(seccion):
-    if seccion == "Eclipse":
-        st.write("Información sobre el Eclipse:")
-        st.image("imagenes/eclipse.jpg", caption="Imagen del Eclipse", use_column_width=True)
-        st.write("Detalles sobre el eclipse aquí...")
-    elif seccion == "Planetas":
-        st.write("Información sobre los Planetas:")
-        st.image("imagenes/planetas.jpg", caption="Imagen de los Planetas", use_column_width=True)
-        st.write("Detalles sobre los planetas aquí...")
-    elif seccion == "Estrellas":
-        st.write("Información sobre las Estrellas:")
-        st.image("imagenes/estrellas.jpg", caption="Imagen de las Estrellas", use_column_width=True)
-        st.write("Detalles sobre las estrellas aquí...")
         
 #base de datos pandas en informacion
 dfinf = pd.read_csv("backloggd_games.csv")
@@ -192,10 +177,6 @@ elif opcion == 'Campeones':
                            ("imagenes/ahri.jpg", "Ahri"),
                            ("imagenes/akali.jpg", "Akali"),
                            ("imagenes/akali.jpg", "Akshan"),
-                           ("imagenes/aatrox.jpg", "Aatrox"),
-                           ("imagenes/ahri.jpg", "Ahri"),
-                           ("imagenes/akali.jpg", "Akali"),
-                           ("imagenes/akshan.jpg", "Akshan"),
                            ("imagenes/alistar.jpg", "Alistar"),
                            ("imagenes/ambessa.jpg", "Ambessa"),
                            ("imagenes/amumu.jpg", "Amumu"),
