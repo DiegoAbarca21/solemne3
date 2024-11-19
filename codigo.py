@@ -181,27 +181,15 @@ if opcion == 'Información':
     st.altair_chart(chart, use_container_width=True)
 
 elif opcion == 'Campeones':
-    st.sidebar.title("Lista de campeones")
-        
-    with st.sidebar:
-        col1, col2 = st.columns(2)
-
+    for img, title in [("imagenes/aatrox.jpg", "Aatrox"),
+                       ("imagenes/ahri.jpg", "Ahri"),
+                       ("imagenes/akali.jpg", "Akali")]:
+        col1, col2 = st.columns([1, 1])  # Asignar proporciones iguales a las columnas
         with col1:
-            st.image("imagenes/aatrox.jpg",width=45)
-            st.image("imagenes/ahri.jpg",width=45)
-            st.image("imagenes/akali.jpg",width=45)
-    
+            st.image(img, width=100)  # Ajusta el tamaño de la imagen si es necesario
         with col2:
-            aatrox_clicked = st.button("Aatrox")
-            ahri_clicked = st.button("Ahri")
-            akali_clicked = st.button("Akali")
-    
-    if aatrox_clicked:
-            st.write("Has seleccionado a **Aatrox**")
-    elif ahri_clicked:
-            st.write("Has seleccionado a **Ahri**")
-    elif akali_clicked:
-            st.write("Has seleccionado a **Akali**")
+            if st.button(title):
+                st.write(f"Has seleccionado a **{title}**")
     
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
