@@ -188,25 +188,24 @@ elif opcion == 'Campeones':
     st.sidebar.title("Lista de campeones")
         
     with st.sidebar:
-        col1, col2 = st.columns(2)
-    
-        with col1:
-            st.image("imagenes/aatrox.jpg", caption="Aatrox")
-            st.image("imagenes/ahri.jpg", caption="Ahri")
-            st.image("imagenes/akali.jpg", caption="Akali")
-    
-        with col2:
-            if st.button("Aatrox"):
-                st.write("Has seleccionado a Aatrox")
-            if st.button("Ahri"):
-                st.write("Has seleccionado a Ahri")
-            if st.button("Akali"):
-                st.write("Has seleccionado a Akali")
-            
-    if "seccion" in st.session_state:
-        mostrar_informacion(st.session_state.seccion)
-    else:
-        st.write("Seleccione una opción desde la barra lateral.")
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.image("imagenes/aatrox.jpg", caption="Aatrox")
+        st.image("imagenes/ahri.jpg", caption="Ahri")
+        st.image("imagenes/akali.jpg", caption="Akali")
+
+    with col2:
+        aatrox_clicked = st.button("Aatrox")
+        ahri_clicked = st.button("Ahri")
+        akali_clicked = st.button("Akali")
+
+    if aatrox_clicked:
+        st.write("Has seleccionado a **Aatrox**")
+    elif ahri_clicked:
+        st.write("Has seleccionado a **Ahri**")
+    elif akali_clicked:
+        st.write("Has seleccionado a **Akali**")
     
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
