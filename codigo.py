@@ -173,7 +173,7 @@ elif opcion == 'Campeones':
     
     # Configuración de los botones en el sidebar
     with st.sidebar:    
-        for img, title in  ("imagenes/aatrox.jpg", "Aatrox"),
+        for img, title in [("imagenes/aatrox.jpg", "Aatrox"),
                            ("imagenes/ahri.jpg", "Ahri"),
                            ("imagenes/akali.jpg", "Akali"),
                            ("imagenes/akshan.jpg", "Akshan"),
