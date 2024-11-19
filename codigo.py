@@ -181,7 +181,33 @@ if opcion == 'Información':
     st.altair_chart(chart, use_container_width=True)
 
 elif opcion == 'Campeones':
+    imagen_eclipse = "imagenes/ludencompanioninf.jpg"
+    imagen_planetas = "imagenes/ludencompanioninf.jpg"
+    imagen_estrellas = "imagenes/ludencompanioninf.jpg"
+
     st.sidebar.title("Navegación")
+    if st.sidebar.button("Eclipse"):
+        st.session_state.seccion = "Eclipse"
+    elif st.sidebar.button("Planetas"):
+        st.session_state.seccion = "Planetas"
+    elif st.sidebar.button("Estrellas"):
+        st.session_state.seccion = "Estrellas"
+    
+    # Botón con imagen y texto de Eclipse
+    if st.sidebar.image(imagen_eclipse, caption="Eclipse", use_column_width=True):
+        st.session_state.seccion = "Eclipse"
+        
+    if st.sidebar.image(imagen_planetas, caption="Planetas", use_column_width=True):
+        st.session_state.seccion = "Planetas"
+    
+    if st.sidebar.image(imagen_estrellas, caption="Estrellas", use_column_width=True):
+        st.session_state.seccion = "Estrellas"
+    
+    # Mostrar la información en la página principal según la opción seleccionada
+    if "seccion" in st.session_state:
+        mostrar_informacion(st.session_state.seccion)
+    else:
+        st.write("Seleccione una opción desde la barra lateral.")
     
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
