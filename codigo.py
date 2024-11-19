@@ -194,21 +194,21 @@ elif opcion == 'Campeones':
         st.session_state.seccion = "Akali"
         
     with st.sidebar:
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.image("imagenes/aatrox.jpg", caption="Aatrox")
-        st.image("imagenes/ahri.jpg", caption="Ahri")
-        st.image("imagenes/akali.jpg", caption="Akali")
-
-    with col2:
-        if st.button("Aatrox"):
-            st.write("Has seleccionado a Aatrox")
-        if st.button("Ahri"):
-            st.write("Has seleccionado a Ahri")
-        if st.button("Akali"):
-            st.write("Has seleccionado a Akali")
-        
+        col1, col2 = st.columns(2)
+    
+        with col1:
+            st.image("imagenes/aatrox.jpg", caption="Aatrox")
+            st.image("imagenes/ahri.jpg", caption="Ahri")
+            st.image("imagenes/akali.jpg", caption="Akali")
+    
+        with col2:
+            if st.button("Aatrox"):
+                st.write("Has seleccionado a Aatrox")
+            if st.button("Ahri"):
+                st.write("Has seleccionado a Ahri")
+            if st.button("Akali"):
+                st.write("Has seleccionado a Akali")
+            
     if "seccion" in st.session_state:
         mostrar_informacion(st.session_state.seccion)
     else:
