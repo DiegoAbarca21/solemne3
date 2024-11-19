@@ -5,6 +5,12 @@ import pandas as pd
 import altair as alt
 import base64
 
+def show_info(image_name):
+    if image_name == "eclipseinf":
+        st.write("Información sobre Eclipse.")
+    elif image_name == "ludencompanioninf":
+        st.write("Información sobre Luden Companion.")
+        
 #base de datos pandas en informacion
 dfinf = pd.read_csv("backloggd_games.csv")
 def convertir_k(valor):
@@ -171,14 +177,7 @@ elif opcion == 'Campeones':
 
     
     col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.columns(10)
-    
-    # Función para mostrar contenido adicional cuando se hace clic en el botón
-    def show_info(image_name):
-        if image_name == "eclipseinf":
-            st.write("Información sobre Eclipse.")
-        elif image_name == "ludencompanioninf":
-            st.write("Información sobre Luden Companion.")
-    
+ 
     # Mostrar las imágenes como botones
     with col1:
         if st.button('Ver información de Eclipse', key='btn1'):
