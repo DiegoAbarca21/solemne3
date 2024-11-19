@@ -182,17 +182,26 @@ if opcion == 'Información':
 
 elif opcion == 'Campeones':
     st.sidebar.title("Lista de campeones")
-        
+    
+    # Variable para guardar el mensaje seleccionado
+    mensaje = ""
+    
+    # Configuración de los botones en el sidebar
     with st.sidebar:    
         for img, title in [("imagenes/aatrox.jpg", "Aatrox"),
                            ("imagenes/ahri.jpg", "Ahri"),
                            ("imagenes/akali.jpg", "Akali")]:
-            col1, col2 = st.columns([1, 1])  # Asignar proporciones iguales a las columnas
+            col1, col2 = st.columns([1, 1])  # Proporciones iguales para columnas
             with col1:
-                st.image(img, width=100)  # Ajusta el tamaño de la imagen si es necesario
+                st.image(img, width=45)  # Ajusta el tamaño de la imagen
             with col2:
-                if st.button(title):
-                    st.write(f"Has seleccionado a **{title}**")
+                if st.button(title):  # Al presionar un botón, se actualiza el mensaje
+                    mensaje = f"Has seleccionado a **{title}**"
+    
+    # Mostrar el mensaje en la página principal
+    if mensaje:
+        st.write(mensaje)
+                
     
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
