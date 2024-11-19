@@ -5,11 +5,19 @@ import pandas as pd
 import altair as alt
 import base64
 
-def show_info(image_name):
-    if image_name == "eclipseinf":
-        st.write("Información sobre Eclipse.")
-    elif image_name == "ludencompanioninf":
-        st.write("Información sobre Luden Companion.")
+def mostrar_informacion(seccion):
+    if seccion == "Eclipse":
+        st.write("Información sobre el Eclipse:")
+        st.image("imagenes/eclipse.jpg", caption="Imagen del Eclipse", use_column_width=True)
+        st.write("Detalles sobre el eclipse aquí...")
+    elif seccion == "Planetas":
+        st.write("Información sobre los Planetas:")
+        st.image("imagenes/planetas.jpg", caption="Imagen de los Planetas", use_column_width=True)
+        st.write("Detalles sobre los planetas aquí...")
+    elif seccion == "Estrellas":
+        st.write("Información sobre las Estrellas:")
+        st.image("imagenes/estrellas.jpg", caption="Imagen de las Estrellas", use_column_width=True)
+        st.write("Detalles sobre las estrellas aquí...")
         
 #base de datos pandas en informacion
 dfinf = pd.read_csv("backloggd_games.csv")
@@ -173,27 +181,8 @@ if opcion == 'Información':
     st.altair_chart(chart, use_container_width=True)
 
 elif opcion == 'Campeones':
-    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.columns(10)
-    with col1:
-        st.image("imagenes/ludencompanioninf.jpg")
-    with col2:
-        st.image("imagenes/ludencompanioninf.jpg")
-    with col3:
-        st.image("imagenes/eclipseinf.jpg")
-    with col4:
-        st.image("imagenes/ludencompanioninf.jpg")
-    with col5:
-        st.image("imagenes/eclipseinf.jpg")
-    with col6:
-        st.image("imagenes/ludencompanioninf.jpg")
-    with col7:
-        st.image("imagenes/eclipseinf.jpg")
-    with col8:
-        st.image("imagenes/ludencompanioninf.jpg")
-    with col9:
-        st.image("imagenes/eclipseinf.jpg")
-    with col10:
-        st.image("imagenes/ludencompanioninf.jpg")
+    st.sidebar.title("Navegación")
+    
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
     video_url = "https://www.youtube.com/watch?v=Kv2rswmxBVs"
