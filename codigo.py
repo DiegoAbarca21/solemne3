@@ -336,6 +336,11 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        col1, col2 = st.columns(2)
+        with col1:
+                st.image("imagenes/eclipseinf.jpg", caption="Objeto ideal para comprar cuando eres luchador, te otorga escudo, daño a enemigos con mucha vida y reestablecimiento de habilidades.")
+        with col2:
+                st.image("imagenes/ludencompanioninf.jpg", caption="Objeto ideal para comprar cuando eres mago, te otorga daño magico dispersivo, maná y reestablecimiento de habilidades.")
 
     elif mensaje == "Ahri":
         st.markdown(
