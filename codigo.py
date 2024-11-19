@@ -328,297 +328,1464 @@ elif opcion == 'Campeones':
     
     # Mostrar el mensaje en la página principal
     if mensaje == "Aatrox":
-        st.write("Haz seleccionado a Aatrox")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Aatrox</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Ahri":
-        st.write("Haz seleccionado a Ahri")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Ahri</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Akali":
-        st.write("Haz seleccionado a Akali")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Akali</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Akshan":
-        st.write("Haz seleccionado a Akshan")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Akshan</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Alistar":
-        st.write("Haz seleccionado a Alistar")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Alistar</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Ambessa":
-        st.write("Haz seleccionado a Ambessa")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Ambessa</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Amumu":
-        st.write("Haz seleccionado a Amumu")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Amumu</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Anivia":
-        st.write("Haz seleccionado a Anivia")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Anivia</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Annie":
-        st.write("Haz seleccionado a Annie")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Annie</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Aphelios":
-        st.write("Haz seleccionado a Aphelios")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Aphelios</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Ashe":
-        st.write("Haz seleccionado a Ashe")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Ashe</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Aurelion":
-        st.write("Haz seleccionado a Aurelion")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Aurelion</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Azir":
-        st.write("Haz seleccionado a Azir")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Azir</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Bardo":
-        st.write("Haz seleccionado a Bardo")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Bardo</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Belvet":
-        st.write("Haz seleccionado a Belvet")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Belvet</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Blitzcrank":
-        st.write("Haz seleccionado a Blitzcrank")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Blitzcrank</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Brand":
-        st.write("Haz seleccionado a Brand")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Brand</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Braum":
-        st.write("Haz seleccionado a Braum")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Braum</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Caitlyn":
-        st.write("Haz seleccionado a Caitlyn")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Caitlyn</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Camille":
-        st.write("Haz seleccionado a Camille")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Camille</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Cassiopeia":
-        st.write("Haz seleccionado a Cassiopeia")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Cassiopeia</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Chogath":
-        st.write("Haz seleccionado a Chogath")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Chogath</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Corki":
-        st.write("Haz seleccionado a Corki")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Corki</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Darius":
-        st.write("Haz seleccionado a Darius")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Darius</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Diana":
-        st.write("Haz seleccionado a Diana")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Diana</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Draven":
-        st.write("Haz seleccionado a Draven")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Draven</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Drmundo":
-        st.write("Haz seleccionado a Drmundo")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Drmundo</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Ekko":
-        st.write("Haz seleccionado a Ekko")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Ekko</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Elisse":
-        st.write("Haz seleccionado a Elisse")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Elisse</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Evelynn":
-        st.write("Haz seleccionado a Evelynn")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Evelynn</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Ezreal":
-        st.write("Haz seleccionado a Ezreal")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Ezreal</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Fiddlesticks":
-        st.write("Haz seleccionado a Fiddlesticks")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Fiddlesticks</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Fiora":
-        st.write("Haz seleccionado a Fiora")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Fiora</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Fizz":
-        st.write("Haz seleccionado a Fizz")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Fizz</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Galio":
-        st.write("Haz seleccionado a Galio")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Galio</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Gangplank":
-        st.write("Haz seleccionado a Gangplank")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Gangplank</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Garen":
-        st.write("Haz seleccionado a Garen")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Garen</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Gnar":
-        st.write("Haz seleccionado a Gnar")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Gnar</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Gragas":
-        st.write("Haz seleccionado a Gragas")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Gragas</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Graves":
-        st.write("Haz seleccionado a Graves")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Graves</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Gwen":
-        st.write("Haz seleccionado a Gwen")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Gwen</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Hecarim":
-        st.write("Haz seleccionado a Hecarim")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Hecarim</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Heimerdinger":
-        st.write("Haz seleccionado a Heimerdinger")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Heimerdinger</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Illaoi":
-        st.write("Haz seleccionado a Illaoi")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Illaoi</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Irelia":
-        st.write("Haz seleccionado a Irelia")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Irelia</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Ivern":
-        st.write("Haz seleccionado a Ivern")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Ivern</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Janna":
-        st.write("Haz seleccionado a Janna")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Janna</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Jarvan":
-        st.write("Haz seleccionado a Jarvan")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Jarvan</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Jax":
-        st.write("Haz seleccionado a Jax")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Jax</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Jayce":
-        st.write("Haz seleccionado a Jayce")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Jayce</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Jhin":
-        st.write("Haz seleccionado a Jhin")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Jhin</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Jinx":
-        st.write("Haz seleccionado a Jinx")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Jinx</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Kaisa":
-        st.write("Haz seleccionado a Kaisa")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Kaisa</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Kalista":
-        st.write("Haz seleccionado a Kalista")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Kalista</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Karma":
-        st.write("Haz seleccionado a Karma")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Karma</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Karthus":
-        st.write("Haz seleccionado a Karthus")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Karthus</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Kassadin":
-        st.write("Haz seleccionado a Kassadin")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Kassadin</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Katarina":
-        st.write("Haz seleccionado a Katarina")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Katarina</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Kayle":
-        st.write("Haz seleccionado a Kayle")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Kayle</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Kayn":
-        st.write("Haz seleccionado a Kayn")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Kayn</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Kennen":
-        st.write("Haz seleccionado a Kennen")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Kennen</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Khazix":
-        st.write("Haz seleccionado a Khazix")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Khazix</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Kindred":
-        st.write("Haz seleccionado a Kindred")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Kindred</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Kled":
-        st.write("Haz seleccionado a Kled")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Kled</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Kogmaw":
-        st.write("Haz seleccionado a Kogmaw")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Kogmaw</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Ksante":
-        st.write("Haz seleccionado a Ksante")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Ksante</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Leblanc":
-        st.write("Haz seleccionado a Leblanc")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Leblanc</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Leesin":
-        st.write("Haz seleccionado a Leesin")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Leesin</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Leona":
-        st.write("Haz seleccionado a Leona")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Leona</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Lillia":
-        st.write("Haz seleccionado a Lillia")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Lillia</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Lissandra":
-        st.write("Haz seleccionado a Lissandra")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Lissandra</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Lucian":
-        st.write("Haz seleccionado a Lucian")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Lucian</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Lulu":
-        st.write("Haz seleccionado a Lulu")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Lulu</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Lux":
-        st.write("Haz seleccionado a Lux")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Lux</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Malphite":
-        st.write("Haz seleccionado a Malphite")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Malphite</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Malzahar":
-        st.write("Haz seleccionado a Malzahar")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Malzahar</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Maokai":
-        st.write("Haz seleccionado a Maokai")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Maokai</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Mf":
-        st.write("Haz seleccionado a Mf")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Mf</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Mordekaiser":
-        st.write("Haz seleccionado a Mordekaiser")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Mordekaiser</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Morgana":
-        st.write("Haz seleccionado a Morgana")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Morgana</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Nami":
-        st.write("Haz seleccionado a Nami")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Nami</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Nasus":
-        st.write("Haz seleccionado a Nasus")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Nasus</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Nautilus":
-        st.write("Haz seleccionado a Nautilus")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Nautilus</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Neeko":
-        st.write("Haz seleccionado a Neeko")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Neeko</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Nidalee":
-        st.write("Haz seleccionado a Nidalee")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Nidalee</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Nilah":
-        st.write("Haz seleccionado a Nilah")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Nilah</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Nocturne":
-        st.write("Haz seleccionado a Nocturne")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Nocturne</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Nunu":
-        st.write("Haz seleccionado a Nunu")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Nunu</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Olaf":
-        st.write("Haz seleccionado a Olaf")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Olaf</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Orianna":
-        st.write("Haz seleccionado a Orianna")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Orianna</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Ornn":
-        st.write("Haz seleccionado a Ornn")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Ornn</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Pantheon":
-        st.write("Haz seleccionado a Pantheon")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Pantheon</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Poppy":
-        st.write("Haz seleccionado a Poppy")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Poppy</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Pyke":
-        st.write("Haz seleccionado a Pyke")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Pyke</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Qiyana":
-        st.write("Haz seleccionado a Qiyana")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Qiyana</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Quinn":
-        st.write("Haz seleccionado a Quinn")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Quinn</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Rammus":
-        st.write("Haz seleccionado a Rammus")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Rammus</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Renataglasc":
-        st.write("Haz seleccionado a Renataglasc")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Renataglasc</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Renekton":
-        st.write("Haz seleccionado a Renekton")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Renekton</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Rengar":
-        st.write("Haz seleccionado a Rengar")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Rengar</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Riven":
-        st.write("Haz seleccionado a Riven")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Riven</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Rumble":
-        st.write("Haz seleccionado a Rumble")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Rumble</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Ryze":
-        st.write("Haz seleccionado a Ryze")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Ryze</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Sejuani":
-        st.write("Haz seleccionado a Sejuani")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Sejuani</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Senna":
-        st.write("Haz seleccionado a Senna")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Senna</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Sett":
-        st.write("Haz seleccionado a Sett")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Sett</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Shaco":
-        st.write("Haz seleccionado a Shaco")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Shaco</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Shen":
-        st.write("Haz seleccionado a Shen")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Shen</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Shyvana":
-        st.write("Haz seleccionado a Shyvana")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Shyvana</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Singed":
-        st.write("Haz seleccionado a Singed")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Singed</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Sion":
-        st.write("Haz seleccionado a Sion")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Sion</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Sivir":
-        st.write("Haz seleccionado a Sivir")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Sivir</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Skarner":
-        st.write("Haz seleccionado a Skarner")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Skarner</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Sona":
-        st.write("Haz seleccionado a Sona")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Sona</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Soraka":
-        st.write("Haz seleccionado a Soraka")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Soraka</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Swain":
-        st.write("Haz seleccionado a Swain")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Swain</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Sylas":
-        st.write("Haz seleccionado a Sylas")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Sylas</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Syndra":
-        st.write("Haz seleccionado a Syndra")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Syndra</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Taliyah":
-        st.write("Haz seleccionado a Taliyah")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Taliyah</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Talon":
-        st.write("Haz seleccionado a Talon")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Talon</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Taric":
-        st.write("Haz seleccionado a Taric")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Taric</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Teemo":
-        st.write("Haz seleccionado a Teemo")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Teemo</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Thresh":
-        st.write("Haz seleccionado a Thresh")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Thresh</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Tristana":
-        st.write("Haz seleccionado a Tristana")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Tristana</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Trundle":
-        st.write("Haz seleccionado a Trundle")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Trundle</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Tryndamere":
-        st.write("Haz seleccionado a Tryndamere")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Tryndamere</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Twistedfate":
-        st.write("Haz seleccionado a Twistedfate")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Twistedfate</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Twitch":
-        st.write("Haz seleccionado a Twitch")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Twitch</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Udyr":
-        st.write("Haz seleccionado a Udyr")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Udyr</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Urgot":
-        st.write("Haz seleccionado a Urgot")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Urgot</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Varus":
-        st.write("Haz seleccionado a Varus")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Varus</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Vayne":
-        st.write("Haz seleccionado a Vayne")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Vayne</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Veigar":
-        st.write("Haz seleccionado a Veigar")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Veigar</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Velkoz":
-        st.write("Haz seleccionado a Velkoz")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Velkoz</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Vex":
-        st.write("Haz seleccionado a Vex")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Vex</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Vi":
-        st.write("Haz seleccionado a Vi")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Vi</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Viego":
-        st.write("Haz seleccionado a Viego")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Viego</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Viktor":
-        st.write("Haz seleccionado a Viktor")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Viktor</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Vladimir":
-        st.write("Haz seleccionado a Vladimir")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Vladimir</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Volibear":
-        st.write("Haz seleccionado a Volibear")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Volibear</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Warwick":
-        st.write("Haz seleccionado a Warwick")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Warwick</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Wukong":
-        st.write("Haz seleccionado a Wukong")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Wukong</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Xerath":
-        st.write("Haz seleccionado a Xerath")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Xerath</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Xinzhao":
-        st.write("Haz seleccionado a Xinzhao")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Xinzhao</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Yasuo":
-        st.write("Haz seleccionado a Yasuo")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Yasuo</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
+
     elif mensaje == "Yi":
-        st.write("Haz seleccionado a Yi")
+        st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1 style="color: white;">Yi</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
     
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
