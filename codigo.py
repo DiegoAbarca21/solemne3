@@ -190,7 +190,8 @@ elif opcion == 'Campeones':
     with st.sidebar:    
         for img, title in [("imagenes/aatrox.jpg", "Aatrox"),
                            ("imagenes/ahri.jpg", "Ahri"),
-                           ("imagenes/akali.jpg", "Akali")]:
+                           ("imagenes/akali.jpg", "Akali")
+                           ("imagenes/akali.jpg", "Akshan")]:
             col1, col2 = st.columns([1, 1])  # Proporciones iguales para columnas
             with col1:
                 st.image(img, width=45)  # Ajusta el tamaño de la imagen
@@ -205,6 +206,8 @@ elif opcion == 'Campeones':
         st.write("Haz seleccionado a Ahri")
     elif mensaje == "Akali":
         st.write("Haz seleccionado a Akali")
+    elif mensaje == "Akshan":
+        st.write("Haz seleccionado a Akshan")
 
     
 elif opcion == 'Competitivo':
