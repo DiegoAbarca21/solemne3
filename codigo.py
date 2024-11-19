@@ -186,12 +186,6 @@ elif opcion == 'Campeones':
     imagen_estrellas = "imagenes/ludencompanioninf.jpg"
 
     st.sidebar.title("Lista de campeones")
-    if st.sidebar.button("Aatrox"):
-        st.session_state.seccion = "Aatrox"
-    elif st.sidebar.button("Ahri"):
-        st.session_state.seccion = "Ahri"
-    elif st.sidebar.button("Akali"):
-        st.session_state.seccion = "Akali"
         
     with st.sidebar:
         col1, col2 = st.columns(2)
