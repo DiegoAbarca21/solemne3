@@ -200,11 +200,11 @@ elif opcion == 'Campeones':
             ahri_clicked = st.button("Ahri")
             akali_clicked = st.button("Akali")
     
-        if aatrox_clicked:
+    if aatrox_clicked:
             st.write("Has seleccionado a **Aatrox**")
-        elif ahri_clicked:
+    elif ahri_clicked:
             st.write("Has seleccionado a **Ahri**")
-        elif akali_clicked:
+    elif akali_clicked:
             st.write("Has seleccionado a **Akali**")
     
 elif opcion == 'Competitivo':
