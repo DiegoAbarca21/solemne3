@@ -187,9 +187,9 @@ elif opcion == 'Campeones':
         col1, col2 = st.columns(2)
 
         with col1:
-            st.image("imagenes/aatrox.jpg",width=50)
-            st.image("imagenes/ahri.jpg")
-            st.image("imagenes/akali.jpg")
+            st.image("imagenes/aatrox.jpg",width=45)
+            st.image("imagenes/ahri.jpg",width=45)
+            st.image("imagenes/akali.jpg",width=45)
     
         with col2:
             aatrox_clicked = st.button("Aatrox")
