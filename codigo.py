@@ -180,16 +180,16 @@ elif opcion == 'Campeones':
  
     # Mostrar las imágenes como botones
     with col1:
-    # Mostrar imagen que actúa como botón
-    img_button = st.image("imagenes/eclipseinf.jpg", use_column_width=True)
-    
-    # Detectar clic en la imagen
-    if st.session_state.get("img_button_clicked", False):
-        show_info("eclipseinf")
+        # Mostrar imagen que actúa como botón
+        img_button = st.image("imagenes/eclipseinf.jpg", use_column_width=True)
         
-    # Esta función para cambiar el estado de clic
-    if st.image("imagenes/eclipseinf.jpg", use_column_width=True) is not None:
-        st.session_state["img_button_clicked"] = True
+        # Detectar clic en la imagen
+        if st.session_state.get("img_button_clicked", False):
+            show_info("eclipseinf")
+            
+        # Esta función para cambiar el estado de clic
+        if st.image("imagenes/eclipseinf.jpg", use_column_width=True) is not None:
+            st.session_state["img_button_clicked"] = True
         
     with col2:
         if st.button('Ver información de Luden Companion', key='btn2'):
