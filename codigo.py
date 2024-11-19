@@ -196,7 +196,6 @@ elif opcion == 'Campeones':
                            ("imagenes/volibear.jpg", "Volibear"),
                            ("imagenes/warwick.jpg", "Warwick"),
                            ("imagenes/wukong.jpg", "Wukong"),
-                           ("imagenes/xayah.jpg", "Xayah"),
                            ("imagenes/xerath.jpg", "Xerath"),
                            ("imagenes/xinzhao.jpg", "Xinzhao"),
                            ("imagenes/yasuo.jpg", "Yasuo"),
