@@ -328,7 +328,6 @@ elif opcion == 'Campeones':
     
     # Mostrar el mensaje en la página principal
     if title:
-        
         st.markdown(
         f"""
         <div style="text-align: center;">
@@ -337,12 +336,7 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
-            
-        col1, col2 = st.columns(2)
-        with col1:
-                st.image(imagen)
-        with col2:
-                st.write("Aqui va la informacion")
+
                 
 
 elif opcion == 'Competitivo':
