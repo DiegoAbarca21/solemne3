@@ -327,7 +327,7 @@ elif opcion == 'Campeones':
                     mensaje = title
     
     # Mostrar el mensaje en la página principal
-    elif mensaje == "Aatrox":
+    if mensaje == "Aatrox":
         st.markdown(
         """
         <div style="text-align: center;">
