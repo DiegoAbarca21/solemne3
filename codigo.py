@@ -325,7 +325,6 @@ elif opcion == 'Campeones':
             with col2:
                 if st.button(title):  # Al presionar un botón, se actualiza el mensaje
                     mensaje = title
-                    imagen = image
     
     # Mostrar el mensaje en la página principal
     if title:
