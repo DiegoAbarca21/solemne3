@@ -278,6 +278,7 @@ elif opcion == 'Campeones':
                            ("imagenes/ryze.jpg", "Ryze"),
                            ("imagenes/sejuani.jpg", "Sejuani"),
                            ("imagenes/senna.jpg", "Senna"),
+                           ("imagenes/seraphine.jpg", "Seraphine"),
                            ("imagenes/sett.jpg", "Sett"),
                            ("imagenes/shaco.jpg", "Shaco"),
                            ("imagenes/shen.jpg", "Shen"),
