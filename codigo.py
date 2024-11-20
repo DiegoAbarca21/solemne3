@@ -332,7 +332,7 @@ elif opcion == 'Campeones':
         st.markdown(
         f"""
         <div style="text-align: center;">
-            <h1 style="color: white;">{title}</h1>
+            <h1 style="color: white;">{mensaje}</h1>
         </div>
         """,
         unsafe_allow_html=True
