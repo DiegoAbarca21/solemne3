@@ -338,6 +338,7 @@ elif opcion == 'Campeones':
     
     # Mostrar el mensaje en la página principal
     if title:
+        df[{mensaje}]
         st.markdown(
         f"""
         <div style="text-align: center;">
