@@ -319,7 +319,16 @@ elif opcion == 'Campeones':
                            ("imagenes/xerath.jpg", "Xerath"),
                            ("imagenes/xinzhao.jpg", "Xinzhao"),
                            ("imagenes/yasuo.jpg", "Yasuo"),
-                           ("imagenes/yi.jpg", "Yi"),]:
+                           ("imagenes/yi.jpg", "Yi"),
+                           ("imagenes/yone.jpg", "Yone"),
+                           ("imagenes/yuumi.jpg", "Yuumi"),
+                           ("imagenes/zac.jpg", "Zac"),
+                           ("imagenes/zed.jpg", "Zed"),
+                           ("imagenes/zeri.jpg", "Zeri"),
+                           ("imagenes/ziggs.jpg", "Ziggs"),
+                           ("imagenes/zilean.jpg", "Zilean"),
+                           ("imagenes/zoe.jpg", "Zoe"),
+                           ("imagenes/zyra.jpg", "Zyra"),]:
             col1, col2 = st.columns([1, 1])  # Proporciones iguales para columnas
             with col1:
                 st.image(img, width=60)  # Ajusta el tamaño de la imagen
