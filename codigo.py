@@ -199,7 +199,7 @@ elif opcion == 'Campeones':
                            ("imagenes/darius.jpg", "Darius"),
                            ("imagenes/diana.jpg", "Diana"),
                            ("imagenes/draven.jpg", "Draven"),
-                           ("imagenes/drmundo.jpg", "Drmundo"),
+                           ("imagenes/drmundo.jpg", "Dr. Mundo"),
                            ("imagenes/ekko.jpg", "Ekko"),
                            ("imagenes/elisse.jpg", "Elisse"),
                            ("imagenes/evelynn.jpg", "Evelynn"),
@@ -250,7 +250,7 @@ elif opcion == 'Campeones':
                            ("imagenes/malphite.jpg", "Malphite"),
                            ("imagenes/malzahar.jpg", "Malzahar"),
                            ("imagenes/maokai.jpg", "Maokai"),
-                           ("imagenes/mf.jpg", "Mf"),
+                           ("imagenes/mf.jpg", "Miss Fortune"),
                            ("imagenes/mordekaiser.jpg", "Mordekaiser"),
                            ("imagenes/morgana.jpg", "Morgana"),
                            ("imagenes/nami.jpg", "Nami"),
@@ -260,7 +260,7 @@ elif opcion == 'Campeones':
                            ("imagenes/nidalee.jpg", "Nidalee"),
                            ("imagenes/nilah.jpg", "Nilah"),
                            ("imagenes/nocturne.jpg", "Nocturne"),
-                           ("imagenes/nunu.jpg", "Nunu"),
+                           ("imagenes/nunu.jpg", "Nunu & Willump"),
                            ("imagenes/olaf.jpg", "Olaf"),
                            ("imagenes/orianna.jpg", "Orianna"),
                            ("imagenes/ornn.jpg", "Ornn"),
@@ -325,6 +325,7 @@ elif opcion == 'Campeones':
             with col2:
                 if st.button(title):  # Al presionar un botón, se actualiza el mensaje
                     mensaje = title
+                    imagen = image
     
     # Mostrar el mensaje en la página principal
     if title:
@@ -340,7 +341,7 @@ elif opcion == 'Campeones':
             
         col1, col2 = st.columns(2)
         with col1:
-                st.image("imagenes/aatrox.jpg")
+                st.image(imagen)
         with col2:
                 st.write("Aqui va la informacion")
                 
