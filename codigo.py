@@ -327,7 +327,7 @@ elif opcion == 'Campeones':
                     mensaje = title
     
     # Mostrar el mensaje en la página principal
-    if mensaje == "Aatrox":
+    elif mensaje == "Aatrox":
         st.markdown(
         """
         <div style="text-align: center;">
@@ -336,11 +336,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
-        col1, col2 = st.columns(2)
         with col1:
-                st.image("imagenes/eclipseinf.jpg")
+            st.image("imagenes/aatrox.jpg")
         with col2:
-                st.write("Aqui va la informacion")
+            st.write("Aqui va la informacion")
 
     elif mensaje == "Ahri":
         st.markdown(
@@ -351,6 +350,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/ahri.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Akali":
         st.markdown(
@@ -361,6 +364,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/akali.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Akshan":
         st.markdown(
@@ -371,6 +378,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/akshan.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Alistar":
         st.markdown(
@@ -381,6 +392,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/alistar.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Ambessa":
         st.markdown(
@@ -391,6 +406,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/ambessa.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Amumu":
         st.markdown(
@@ -401,6 +420,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/amumu.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Anivia":
         st.markdown(
@@ -411,6 +434,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/anivia.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Annie":
         st.markdown(
@@ -421,6 +448,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/annie.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Aphelios":
         st.markdown(
@@ -431,6 +462,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/aphelios.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Ashe":
         st.markdown(
@@ -441,6 +476,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/ashe.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Aurelion":
         st.markdown(
@@ -451,6 +490,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/aurelion.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Azir":
         st.markdown(
@@ -461,6 +504,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/azir.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Bardo":
         st.markdown(
@@ -471,6 +518,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/bardo.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Belvet":
         st.markdown(
@@ -481,6 +532,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/belvet.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Blitzcrank":
         st.markdown(
@@ -491,6 +546,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/blitzcrank.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Brand":
         st.markdown(
@@ -501,6 +560,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/brand.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Braum":
         st.markdown(
@@ -511,6 +574,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/braum.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Caitlyn":
         st.markdown(
@@ -521,6 +588,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/caitlyn.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Camille":
         st.markdown(
@@ -531,6 +602,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/camille.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Cassiopeia":
         st.markdown(
@@ -541,6 +616,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/cassiopeia.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Chogath":
         st.markdown(
@@ -551,6 +630,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/chogath.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Corki":
         st.markdown(
@@ -561,6 +644,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/corki.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Darius":
         st.markdown(
@@ -571,6 +658,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/darius.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Diana":
         st.markdown(
@@ -581,6 +672,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/diana.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Draven":
         st.markdown(
@@ -591,6 +686,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/draven.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Drmundo":
         st.markdown(
@@ -601,6 +700,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/drmundo.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Ekko":
         st.markdown(
@@ -611,6 +714,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/ekko.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Elisse":
         st.markdown(
@@ -621,6 +728,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/elisse.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Evelynn":
         st.markdown(
@@ -631,6 +742,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/evelynn.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Ezreal":
         st.markdown(
@@ -641,6 +756,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/ezreal.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Fiddlesticks":
         st.markdown(
@@ -651,6 +770,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/fiddlesticks.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Fiora":
         st.markdown(
@@ -661,6 +784,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/fiora.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Fizz":
         st.markdown(
@@ -671,6 +798,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/fizz.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Galio":
         st.markdown(
@@ -681,6 +812,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/galio.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Gangplank":
         st.markdown(
@@ -691,6 +826,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/gangplank.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Garen":
         st.markdown(
@@ -701,6 +840,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/garen.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Gnar":
         st.markdown(
@@ -711,6 +854,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/gnar.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Gragas":
         st.markdown(
@@ -721,6 +868,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/gragas.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Graves":
         st.markdown(
@@ -731,6 +882,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/graves.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Gwen":
         st.markdown(
@@ -741,6 +896,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/gwen.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Hecarim":
         st.markdown(
@@ -751,6 +910,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/hecarim.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Heimerdinger":
         st.markdown(
@@ -761,6 +924,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/heimerdinger.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Illaoi":
         st.markdown(
@@ -771,6 +938,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/illaoi.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Irelia":
         st.markdown(
@@ -781,6 +952,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/irelia.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Ivern":
         st.markdown(
@@ -791,6 +966,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/ivern.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Janna":
         st.markdown(
@@ -801,6 +980,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/janna.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Jarvan":
         st.markdown(
@@ -811,6 +994,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/jarvan.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Jax":
         st.markdown(
@@ -821,6 +1008,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/jax.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Jayce":
         st.markdown(
@@ -831,6 +1022,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/jayce.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Jhin":
         st.markdown(
@@ -841,6 +1036,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/jhin.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Jinx":
         st.markdown(
@@ -851,6 +1050,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/jinx.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Kaisa":
         st.markdown(
@@ -861,6 +1064,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/kaisa.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Kalista":
         st.markdown(
@@ -871,6 +1078,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/kalista.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Karma":
         st.markdown(
@@ -881,6 +1092,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/karma.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Karthus":
         st.markdown(
@@ -891,6 +1106,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/karthus.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Kassadin":
         st.markdown(
@@ -901,6 +1120,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/kassadin.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Katarina":
         st.markdown(
@@ -911,6 +1134,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/katarina.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Kayle":
         st.markdown(
@@ -921,6 +1148,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/kayle.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Kayn":
         st.markdown(
@@ -931,6 +1162,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/kayn.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Kennen":
         st.markdown(
@@ -941,6 +1176,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/kennen.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Khazix":
         st.markdown(
@@ -951,6 +1190,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/khazix.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Kindred":
         st.markdown(
@@ -961,6 +1204,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/kindred.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Kled":
         st.markdown(
@@ -971,6 +1218,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/kled.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Kogmaw":
         st.markdown(
@@ -981,6 +1232,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/kogmaw.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Ksante":
         st.markdown(
@@ -991,6 +1246,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/ksante.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Leblanc":
         st.markdown(
@@ -1001,6 +1260,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/leblanc.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Leesin":
         st.markdown(
@@ -1011,6 +1274,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/leesin.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Leona":
         st.markdown(
@@ -1021,6 +1288,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/leona.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Lillia":
         st.markdown(
@@ -1031,6 +1302,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/lillia.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Lissandra":
         st.markdown(
@@ -1041,6 +1316,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/lissandra.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Lucian":
         st.markdown(
@@ -1051,6 +1330,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/lucian.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Lulu":
         st.markdown(
@@ -1061,6 +1344,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/lulu.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Lux":
         st.markdown(
@@ -1071,6 +1358,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/lux.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Malphite":
         st.markdown(
@@ -1081,6 +1372,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/malphite.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Malzahar":
         st.markdown(
@@ -1091,6 +1386,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/malzahar.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Maokai":
         st.markdown(
@@ -1101,6 +1400,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/maokai.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Mf":
         st.markdown(
@@ -1111,6 +1414,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/mf.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Mordekaiser":
         st.markdown(
@@ -1121,6 +1428,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/mordekaiser.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Morgana":
         st.markdown(
@@ -1131,6 +1442,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/morgana.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Nami":
         st.markdown(
@@ -1141,6 +1456,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/nami.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Nasus":
         st.markdown(
@@ -1151,6 +1470,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/nasus.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Nautilus":
         st.markdown(
@@ -1161,6 +1484,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/nautilus.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Neeko":
         st.markdown(
@@ -1171,6 +1498,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/neeko.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Nidalee":
         st.markdown(
@@ -1181,6 +1512,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/nidalee.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Nilah":
         st.markdown(
@@ -1191,6 +1526,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/nilah.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Nocturne":
         st.markdown(
@@ -1201,6 +1540,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/nocturne.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Nunu":
         st.markdown(
@@ -1211,6 +1554,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/nunu.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Olaf":
         st.markdown(
@@ -1221,6 +1568,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/olaf.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Orianna":
         st.markdown(
@@ -1231,6 +1582,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/orianna.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Ornn":
         st.markdown(
@@ -1241,6 +1596,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/ornn.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Pantheon":
         st.markdown(
@@ -1251,6 +1610,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/pantheon.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Poppy":
         st.markdown(
@@ -1261,6 +1624,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/poppy.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Pyke":
         st.markdown(
@@ -1271,6 +1638,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/pyke.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Qiyana":
         st.markdown(
@@ -1281,6 +1652,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/qiyana.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Quinn":
         st.markdown(
@@ -1291,6 +1666,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/quinn.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Rammus":
         st.markdown(
@@ -1301,6 +1680,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/rammus.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Renataglasc":
         st.markdown(
@@ -1311,6 +1694,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/renataglasc.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Renekton":
         st.markdown(
@@ -1321,6 +1708,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/renekton.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Rengar":
         st.markdown(
@@ -1331,6 +1722,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/rengar.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Riven":
         st.markdown(
@@ -1341,6 +1736,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/riven.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Rumble":
         st.markdown(
@@ -1351,6 +1750,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/rumble.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Ryze":
         st.markdown(
@@ -1361,6 +1764,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/ryze.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Sejuani":
         st.markdown(
@@ -1371,6 +1778,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/sejuani.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Senna":
         st.markdown(
@@ -1381,6 +1792,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/senna.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Sett":
         st.markdown(
@@ -1391,6 +1806,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/sett.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Shaco":
         st.markdown(
@@ -1401,6 +1820,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/shaco.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Shen":
         st.markdown(
@@ -1411,6 +1834,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/shen.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Shyvana":
         st.markdown(
@@ -1421,6 +1848,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/shyvana.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Singed":
         st.markdown(
@@ -1431,6 +1862,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/singed.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Sion":
         st.markdown(
@@ -1441,6 +1876,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/sion.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Sivir":
         st.markdown(
@@ -1451,6 +1890,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/sivir.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Skarner":
         st.markdown(
@@ -1461,6 +1904,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/skarner.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Sona":
         st.markdown(
@@ -1471,6 +1918,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/sona.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Soraka":
         st.markdown(
@@ -1481,6 +1932,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/soraka.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Swain":
         st.markdown(
@@ -1491,6 +1946,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/swain.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Sylas":
         st.markdown(
@@ -1501,6 +1960,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/sylas.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Syndra":
         st.markdown(
@@ -1511,6 +1974,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/syndra.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Taliyah":
         st.markdown(
@@ -1521,6 +1988,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/taliyah.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Talon":
         st.markdown(
@@ -1531,6 +2002,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/talon.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Taric":
         st.markdown(
@@ -1541,6 +2016,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/taric.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Teemo":
         st.markdown(
@@ -1551,6 +2030,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/teemo.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Thresh":
         st.markdown(
@@ -1561,6 +2044,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/thresh.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Tristana":
         st.markdown(
@@ -1571,6 +2058,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/tristana.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Trundle":
         st.markdown(
@@ -1581,6 +2072,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/trundle.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Tryndamere":
         st.markdown(
@@ -1591,6 +2086,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/tryndamere.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Twistedfate":
         st.markdown(
@@ -1601,6 +2100,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/twistedfate.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Twitch":
         st.markdown(
@@ -1611,6 +2114,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/twitch.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Udyr":
         st.markdown(
@@ -1621,6 +2128,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/udyr.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Urgot":
         st.markdown(
@@ -1631,6 +2142,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/urgot.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Varus":
         st.markdown(
@@ -1641,6 +2156,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/varus.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Vayne":
         st.markdown(
@@ -1651,6 +2170,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/vayne.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Veigar":
         st.markdown(
@@ -1661,6 +2184,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/veigar.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Velkoz":
         st.markdown(
@@ -1671,6 +2198,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/velkoz.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Vex":
         st.markdown(
@@ -1681,6 +2212,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/vex.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Vi":
         st.markdown(
@@ -1691,6 +2226,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/vi.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Viego":
         st.markdown(
@@ -1701,6 +2240,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/viego.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Viktor":
         st.markdown(
@@ -1711,6 +2254,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/viktor.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Vladimir":
         st.markdown(
@@ -1721,6 +2268,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/vladimir.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Volibear":
         st.markdown(
@@ -1731,6 +2282,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/volibear.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Warwick":
         st.markdown(
@@ -1741,6 +2296,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/warwick.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Wukong":
         st.markdown(
@@ -1751,6 +2310,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/wukong.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Xerath":
         st.markdown(
@@ -1761,6 +2324,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/xerath.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Xinzhao":
         st.markdown(
@@ -1771,6 +2338,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/xinzhao.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Yasuo":
         st.markdown(
@@ -1781,6 +2352,10 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/yasuo.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
 
     elif mensaje == "Yi":
         st.markdown(
@@ -1791,6 +2366,14 @@ elif opcion == 'Campeones':
         """,
         unsafe_allow_html=True
         )
+        with col1:
+                st.image("imagenes/yi.jpg")
+        with col2:
+                st.write("Aqui va la informacion")
+
+
+
+    
     
 elif opcion == 'Competitivo':
     st.markdown("<h1 style='color: white;'>Competitivo</h1>", unsafe_allow_html=True)
